@@ -1,0 +1,27 @@
+---
+layout: default
+title: Heru's Personal Blog
+---
+
+  {% for post in paginator.posts %}
+  <div class="row post" id="postid-{{post.id}}">
+	<div class="column grid_10">
+	<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+    {{ post.content | strip_html | truncatewords: 50 }}
+      <a href="{{ post.url }}"> &rarr;</a>
+</div>
+</div>
+  {% endfor %}
+  
+  
+<div class="row">
+	<div class="column grid_5 prev">  
+	{% if paginator.previous_page %} {% if paginator.previous_page == 1 %}<a href="/">&larr;</a>
+    {% else %} <a href="/page{{paginator.previous_page}}">&larr;</a>
+    {% endif %}
+  {% endif %}
+  </div>
+	<div class="column grid_5 next right">  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}">&rarr;</a>{% endif %}
+  </div>
+</div>
