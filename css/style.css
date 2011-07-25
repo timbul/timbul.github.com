@@ -27,7 +27,7 @@ a:hover{text-decoration:none; color:#190; }
 a:focus{top:1px; left:1px; position:relative; outline:0; }
 article p a:link, article p a:visited{color:#190; }
 article p a:hover{color:#595348; }
-blockquote{font-family:Georgia,"Times New Roman",Times,serif; margin:5px; padding:10px; font-size:1.52em; color:#999; font-style:italic; line-height:1.3em; quotes:none; }
+blockquote{font-family:Georgia,"Times New Roman",Times,serif; margin:5px; padding:10px; font-size:1.52em; font-style:italic; line-height:1.3em; quotes:none; }
 h1, h2, h3, h4, h5{margin:0 0 0.5em; line-height:1.1em; }
 h1, h2 {font-family:'Pacifico',arial,serif; font-size:2.5em; text-shadow: 2px 2px 0 #FFFFFF, 2px 3px 0 rgba(0, 0, 0, 0.5); }
 h3{font-size:1.652em; }
