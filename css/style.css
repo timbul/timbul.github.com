@@ -53,7 +53,7 @@ pre, code, tt{font:1em 'andale mono','lucida console',monospace; line-height:1.5
 code{background-color:#eee; display:inline; padding:0 2px 1px 2px; line-height:1.1em; }
 pre{margin:1.5em 0; white-space:pre; }
 .right{text-align:right;float:right;}
-.gambar{padding-bottom:9px; background:url('/images/bgr.png') 23px bottom no-repeat; position:relative; width:500px;}
+.gambar{padding-bottom:10px; background:url('/images/bgr.png') 23px bottom no-repeat; position:relative; width:500px;}
 footer{font-size:1.3em; margin:20px auto; text-shadow:2px 2px 0 #FFFFFF, 2px 3px 1px rgba(0, 0, 0, 0.5); line-height: 3em;}
 header{margin:20px auto;}
 .garis {height: 3px; width: 500px; margin: 0px 50px; background-color: #595348; box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -o-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); overflow:hidden; display:block;}
