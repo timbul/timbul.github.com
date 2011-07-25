@@ -2,9 +2,14 @@
 layout: default
 title: about
 ---
-<div class="kiri"><img src="http:/images/batikpolar.png" alt="batikpolaroid" ></div>
+    <div class="row post">
+	<div class="column grid_10">
+	<h2>{{ page.title }}</h2>
+<img class="kiri" src="/images/batikpolar.png" alt="batikpolaroid" >
 <p>My name is Heru, I'm 9 years old, boy from Southeast Asia, Indonesia. I have short black hair, yellow tan skin tone and dark brown eyes.</p>
 <p>My hobbies are playing football, cycling and watching tv. I like many kind of music, especially POP and Dangdut. My fave bands and singers are: Joshua, Trio Kwek Kwek, Nike Ardilla, Rhoma Irama, Soneta and many many others.</p>
 <p>My favourite actress and actors are: Benyamin Sueb, Dono, Kasino, Indro, Sally Marcellina, Eva Arnaz and Suzanna.</p>
 
 <p class="right">&mdash; Heru</p>
+</div>
+</div>
