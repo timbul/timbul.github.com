@@ -3,25 +3,25 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>Timbulog</title>
- <link href="{{site.root_uri}}/feed/atom.xml" rel="self"/>
- <link href="{{site.root_uri}}/"/>
+ 
+ <title>Heru</title>
+ <link href="http://timbul.github.com/feed/atom.xml" rel="self"/>
+ <link href="http://timbul.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.root_uri}}/</id>
+ <id>http://timbul.github.com/</id>
  <author>
    <name>Heru</name>
    <email>heru.openid@gmail.com</email>
  </author>
 
- {% for post in site.posts limit:20 offset:0 %}
+ {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{site.root_uri}}{{ post.url }}"/>
+   <link http://timbul.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{site.root_uri}}{{ post.id }}</id>
+   <id>http://timbul.github.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
-
+ 
 </feed>
