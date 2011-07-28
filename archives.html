@@ -3,13 +3,13 @@ title: Archives
 layout: default
 ---
 
-    <div class="row post">
-	<div class="column grid_10">
-	<h2>{{ page.title }}</h2>
-  <ol>
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ol>
+<div class="row post">
+<div class="column grid_10">
+<h2>{{ page.title }}</h2>
+<ol>
+{% for post in site.posts %}
+<li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ol>
 </div>
 </div>

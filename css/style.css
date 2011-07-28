@@ -52,11 +52,12 @@ del{color:#666; }
 pre, code, tt{font:1em 'andale mono','lucida console',monospace; line-height:1.5; display:block; }
 code{background-color:#eee; display:inline; padding:0 2px 1px 2px; line-height:1.1em; }
 pre{margin:1.5em 0; white-space:pre; }
+.tengah {text-align:center;}
 .right{text-align:right;float:right;}
 .gambar{padding-bottom:11px; background:url('/images/bgr.png') 23px bottom no-repeat; position:relative; width:500px;}
 footer{font-size:1em; font-weight:bold; margin:20px auto; text-shadow:2px 2px 0 #FFFFFF, 2px 3px 1px rgba(0, 0, 0, 0.5); line-height: 3em;}
-header{margin:20px auto;}
-.garis {height: 3px; width: 500px; margin: 0px 50px; background-color: #595348; box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -o-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); overflow:hidden; display:block;}
+header{margin:30px auto 20px;}
+.garis {height: 3px; width: 500px; margin: 0 auto 0 55px; background-color: #595348; box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -moz-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); -o-box-shadow: 2px 2px 0pt rgb(255, 255, 255), 2px 3px 1px rgba(0, 0, 0, 0.5); overflow:hidden; display:block;}
 .prev, .next {font-size:2em;text-shadow:2px 2px 0 #fff, 2px 3px 1px rgba(0, 0, 0, 0.5);}
 .post{margin-top:20px; margin-bottom:20px;}
 ::selection{background:gray; color:white; }
