@@ -24,3 +24,12 @@ layout: default
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 </div>
+
+<div class="row">
+<div class="column grid_5 prev">  {% if page.next.url %}
+<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">&larr;</a>{% endif %}
+</div>
+<div class="column grid_5 next right">{% if page.previous.url %}
+<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&rarr;</a>{% endif %}
+</div>
+</div>
