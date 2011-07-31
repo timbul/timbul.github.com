@@ -1,6 +1,6 @@
 name: Timbulog
 markdown: rdiscount
 pygments: true
-permalink: /:year/:month/:day/:title.html
+permalink: pretty
 paginate: 3
 
