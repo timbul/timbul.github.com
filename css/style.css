@@ -17,7 +17,7 @@ input, select{vertical-align:middle; }
 .grid_7 { width:340px; }
 .grid_10 { width:500px; }
 .column {margin: 0 5px;	overflow: hidden;float: left;display: inline;}
-.row {	width: 510px;margin: 0 0 0 50px;	overflow: hidden;}
+.row {	width: 510px;margin: 0 auto 0 50px;	overflow: hidden;}
 .row .row {margin: 0 -5px;	width: auto;display: inline-block;}
 body{background-color:#4A525A; color:#eee; font:14px 'Copse',Georgia,"Times New Roman",Times,serif; position:relative; line-height:1.4; letter-spacing:0.02em;}
 @font-face { font-family: 'Copse'; font-style: normal; font-weight: normal; src: local('Copse'), url('/css/copse.woff') format('woff');}
@@ -37,7 +37,7 @@ nav ul{list-style:none; font-size:1.5em; margin:10px 0 0; text-align:right; lett
 nav ul li{display:inline; padding-left:20px; padding-left:20px; }
 ul{list-style:none; }
 ul, ol{margin:0 0 1.5em 2em; padding:0; }
-p{margin:0 0 1.52em; }
+p{margin:0 auto 1.52em; }
 img.kiri{float:left; margin-right:1.52em; }
 img.kanan{float:right; margin-left:1.52em; }
 strong{font-weight:600; }
@@ -52,7 +52,7 @@ code{background-color:#eee; display:inline; padding:0 2px 1px 2px; line-height:1
 pre{margin:1.5em 0; white-space:pre; }
 .tengah {text-align:center;}
 .right{text-align:right;float:right;}
-.gambar{padding-bottom:11px; background:url('/images/bgr.png') 3px bottom no-repeat; position:relative; width:500px;}
+.gambar{padding-bottom:10px; background:url('/images/bgr.png') left bottom no-repeat; position:relative; width:500px;}
 footer{font-size:1em; margin:20px auto; line-height: 3em;}
 header{margin:30px auto 20px;}
 .garis {height: 3px; width: 500px; margin: 0 auto 0 55px; background-color: #eee; box-shadow: 2px 2px 0px #000000; overflow:hidden; display:block;}
