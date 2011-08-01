@@ -38,8 +38,8 @@ nav ul li{display:inline; padding-left:20px; padding-left:20px; }
 ul{list-style:none; }
 ul, ol{margin:0 0 1.5em 2em; padding:0; }
 p{margin:0 0 1.52em; }
-p img.kiri{float:left; margin-right:1.52em; }
-p img.kanan{float:right; margin-left:1.52em; }
+img.kiri{float:left; margin-right:1.52em; }
+img.kanan{float:right; margin-left:1.52em; }
 strong{font-weight:600; }
 em, dfn{font-style:italic; }
 dfn{font-weight:600; }
@@ -59,4 +59,3 @@ header{margin:30px auto 20px;}
 .prev, .next, header, footer, h1, h2, h3, h4, h5 {text-shadow:2px 2px 0 #000000}
 .prev, .next {font-size:2em; font-weight:bold;}
 .post{margin-top:20px; margin-bottom:20px;}
-::selection{background:#606870; color:white; }
