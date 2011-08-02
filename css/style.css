@@ -19,7 +19,7 @@ input, select{vertical-align:middle; }
 .column {margin: 0 5px;	overflow: hidden;float: left;display: inline;}
 .row {	width: 510px;margin: 0 auto 0 50px;	overflow: hidden;}
 .row .row {margin: 0 -5px;	width: auto;display: inline-block;}
-body{background-color:#4A525A; color:#eee; font:14px 'Copse',Georgia,"Times New Roman",Times,serif; position:relative; line-height:1.4; letter-spacing:0.02em;}
+body{background-color:#4A525A; color:#eee; font:14px 'Copse',Georgia,"Times New Roman",Times,serif; position:relative; line-height:1.4; letter-spacing:0.02em;text-shadow:1px 1px 0 #000000}
 @font-face { font-family: 'Copse'; font-style: normal; font-weight: normal; src: local('Copse'), url('/css/copse.woff') format('woff');}
 a:link, a:visited{color:#eee; text-decoration:none;}
 a:hover{text-decoration:none; color:#aaa; }
@@ -56,6 +56,6 @@ pre{margin:1.5em 0; white-space:pre; }
 footer{font-size:1em; margin:20px auto; line-height: 3em;}
 header{margin:30px auto 20px;}
 .garis {height: 3px; width: 500px; margin: 0 auto 0 55px; background-color: #eee; box-shadow: 2px 2px 0px #000000; overflow:hidden; display:block;}
-.prev, .next, header, footer, h1, h2, h3, h4, h5 {text-shadow:2px 2px 0 #000000}
+.prev, .next, header, h1, h2, h3, h4, h5 {text-shadow:2px 2px 0 #000000}
 .prev, .next {font-size:2em; font-weight:bold;}
 .post{margin-top:20px; margin-bottom:20px;}
