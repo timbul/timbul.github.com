@@ -12,14 +12,15 @@ title: Heru's Personal Blog
 </div>
 {% endfor %}
 <div class="row">
-<div class="column grid_5 next">  {% if paginator.next_page %}
-<a href="/page{{paginator.next_page}}" title="Next Page">&larr;</a>{% endif %}
+<div class="column grid_3 prev">{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
+<a href="/" title="previous page">&larr;</a>{% else %}
+<a href="/page{{ paginator.previous_page }}" title="previous page">&larr;</a>{% endif %}
+{% else %}&larr;{% endif %}
 </div>
-<div class="column grid_5 prev right">  
-{% if paginator.previous_page %} {% if paginator.previous_page == 1 %}<a href="/" title="Previous Page">&rarr;</a>
-{% else %}
-<a href="/page{{paginator.previous_page}}" title="Previous Page">&larr;</a>
-{% endif %}
-{% endif %}
+<div class="column grid_3 totpages">Page {{ paginator.page }} of {{ paginator.total_pages }}
+</div>
+<div class="column grid_3 next right">{% if paginator.next_page %}
+<a href="/page{{ paginator.next_page }}/" title="next page">&rarr;</a>
+{% else %}&rarr;{% endif %}
 </div>
 </div>
