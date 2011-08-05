@@ -60,3 +60,4 @@ header{margin:30px auto 20px;}
 .prev, .next {font-size:2em; font-weight:bold;}
 .totpages{line-height:3em; text-align:center;}
 .post{margin-top:20px; margin-bottom:20px;}
+table tr td {width: 170px;}
