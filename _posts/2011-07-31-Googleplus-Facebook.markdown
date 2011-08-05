@@ -1,6 +1,7 @@
 ---
 title: Google Plus VS Facebook
 layout: post
+categories: [Illustration]
 ---
 <img class="gambar" alt="Google plus vs Facebook" src="https://lh5.googleusercontent.com/-ZlONNxuyCtI/TjRtk6lBVsI/AAAAAAAAAJw/v1EQuUACvEw/gplus.png">
 <p>Setelah Google Wave, Google Buzz, dan Google Health dinilai gagal, baru-baru ini Google&trade; meluncurkan Google Plus. Salah satu tujuannya untuk menumbangkan dominasi Facebook di ranah social media.</p>

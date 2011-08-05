@@ -1,6 +1,7 @@
 ---
 title: Blik
 layout: post
+categories: [Video]
 ---
 
 <iframe class="gambar" src="http://player.vimeo.com/video/25475500?title=0&amp;byline=0&amp;portrait=0" width="500" height="281"></iframe>

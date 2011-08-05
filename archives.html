@@ -6,8 +6,21 @@ layout: default
 <div class="row post">
 <div class="column grid_10">
 <h2>{{ page.title }}</h2>
+<h3>Uncategorized</h3>
 <ol>
-{% for post in site.posts %}
+{% for post in site.categories['Uncategorized'] %}
+<li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ol>
+<h3>Illustration</h3>
+<ol>
+{% for post in site.categories['Illustration'] %}
+<li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ol>
+<h3>Video</h3>
+<ol>
+{% for post in site.categories['Video'] %}
 <li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ol>
