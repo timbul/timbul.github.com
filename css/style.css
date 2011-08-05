@@ -19,7 +19,7 @@ input, select{vertical-align:middle; }
 .column {margin: 0 5px;	overflow: hidden;float: left;display: inline;}
 .row {	width: 510px;margin: 0 auto 0 50px;	overflow: hidden;}
 .row .row {margin: 0 -5px;	width: auto;display: inline-block;}
-body{background-color:#4A525A; color:#eee; font:0.98em 'Copse',Georgia,"Times New Roman",Times,serif; position:relative; line-height:1.4; letter-spacing:0.02em;text-shadow:1px 1px 0 #000000}
+body{background-color:#4A525A; color:#eee; font:0.938em 'Copse',Georgia,"Times New Roman",Times,serif; position:relative; line-height:1.4; letter-spacing:0.02em;text-shadow:1px 1px 0 #000000}
 @font-face { font-family: 'Copse'; font-style: normal; font-weight: normal; src: local('Copse'), url('/css/copse.woff') format('woff');}
 a:link, a:visited{color:#eee; text-decoration:none;}
 a:hover{text-decoration:none; color:#aaa; }
