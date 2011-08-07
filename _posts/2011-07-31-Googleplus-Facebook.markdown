@@ -3,7 +3,7 @@ title: Google Plus VS Facebook
 layout: post
 categories: [Illustration]
 ---
-<img class="gambar" alt="Google plus vs Facebook" src="https://lh5.googleusercontent.com/-ZlONNxuyCtI/TjRtk6lBVsI/AAAAAAAAAJw/v1EQuUACvEw/gplus.png">
+<figure><img class="gambar" alt="Google plus vs Facebook" src="https://lh5.googleusercontent.com/-ZlONNxuyCtI/TjRtk6lBVsI/AAAAAAAAAJw/v1EQuUACvEw/gplus.png"></figure>
 <p>Setelah Google Wave, Google Buzz, dan Google Health dinilai gagal, baru-baru ini Google&trade; meluncurkan Google Plus. Salah satu tujuannya untuk menumbangkan dominasi Facebook di ranah social media.</p>
 <p>Google Plus dinilai banyak kalangan lebih baik dari Facebook, dengan tampilan yang sederhana, fitur yang lebih banyak dari Facebook dan terintegrasi dengan berbagai layanan google, salah satunya <a href="https://picasaweb.google.com/">Picassa</a>.</p>
 <p>Bagaimanapun juga Google harus bekerja ekstra untuk bisa menyaingi jumlah pengguna Facebook yang sudah melebihi 600 juta pengguna, sedangkan facebook tinggal duduk manis dan berinovasi lebih untuk mempertahankan dan menambah jumlah penggunanya.</p>
