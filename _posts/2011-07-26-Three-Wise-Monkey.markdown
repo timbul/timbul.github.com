@@ -5,7 +5,6 @@ categories: [Illustration]
 ---
 
 <img class="gambar" alt="three wise monkey" src="https://lh5.googleusercontent.com/-SvcpdQ8GRCc/Ti2mJt5BnjI/AAAAAAAAAJQ/nAnU8k09ujQ/marmoset2.png">
-
 Three Wise Monkey di film RIO. Adegan saat tiga ekor marmoset ketakutan menghadapi kakaktua, marmoset pertama menutup mata, yang kedua menutup telinga dan yang terakhir menutup mulut.
 
 >"see no evil, hear no evil, speak no evil"
