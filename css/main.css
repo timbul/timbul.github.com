@@ -27,6 +27,7 @@ a:focus { left: 1px; outline: 0; position: relative; top: 1px; }
 article p a:link, article p a:visited { color: #eee; text-decoration: underline; }
 article p a:hover { color: #aaa; }
 blockquote { font-family: Georgia,"Times New Roman",Times,serif; font-size: 1.52em; font-style: italic; line-height: 1.3em; margin: 5px; padding: 0 10px 10px; quotes: none; }
+blockquote p { margin-bottom:0; }
 h1, h2, h3, h4, h5 { letter-spacing: -0.02em; margin: 0 0 0.2em; }
 h1, h2 { font-size: 1.875em; font-weight: normal; }
 h3 { font-size: 1.125em; font-weight: normal; }
