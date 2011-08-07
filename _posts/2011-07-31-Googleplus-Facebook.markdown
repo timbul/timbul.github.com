@@ -4,7 +4,7 @@ layout: post
 categories: [Illustration]
 ---
 
-<figure><img class="gambar" alt="Google plus vs Facebook" src="https://lh5.googleusercontent.com/-ZlONNxuyCtI/TjRtk6lBVsI/AAAAAAAAAJw/v1EQuUACvEw/gplus.png"></figure>
+<img class="gambar" alt="Google plus vs Facebook" src="https://lh5.googleusercontent.com/-ZlONNxuyCtI/TjRtk6lBVsI/AAAAAAAAAJw/v1EQuUACvEw/gplus.png">
 Setelah Google Wave, Google Buzz, dan Google Health dinilai gagal, baru-baru ini Google&trade; meluncurkan Google Plus. Salah satu tujuannya untuk menumbangkan dominasi Facebook di ranah social media.
 
 Google Plus dinilai banyak kalangan lebih baik dari Facebook, dengan tampilan yang sederhana, fitur yang lebih banyak dari Facebook dan terintegrasi dengan berbagai layanan google, salah satunya [Picassa](https://picasaweb.google.com/).
