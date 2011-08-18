@@ -13,7 +13,7 @@ layout: default
 <dt>Tag :</dt>{% for tag in page.categories %}
 <dd><a rel="tag" href="/archives#{{ tag }}">{{ tag }}</a></dd>{% endfor %}
 <dt>Comment :</dt>
-<dd><a href='/#disqus_thread'>View Comments</a></dd>
+<dd><a href='{{ post.url }}#disqus_thread'>View Comments</a></dd>
 </dl>
 	</div>
 	<div class="column tiga">{{ content }}</p>
