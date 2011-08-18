@@ -2,6 +2,7 @@
 title: Longtocat VS Tacotgnol
 layout: post
 categories: [Illustration]
+excerpt: "Gambar icon Github, Octodex dengan citarasa Longcat dan Tacgnol menjadi Longtocat dan Tacotgnol."
 ---
 
 <img class="gambar" alt="Longtocat VS Tacotgnol" src="/images/longtocat.png">

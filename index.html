@@ -3,16 +3,24 @@ layout: default
 title: Heru's Personal Blog
 ---
 {% for post in paginator.posts %}
-<div class="row post" id="postid-{{post.id}}">
-<div class="column grid_10">
-<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
-{{ post.content | strip_html | truncatewords: 25 }}
-<a href="{{ post.url }}"> &rarr;</a>
+<div class="post"  id="postid-{{post.id}}">
+<div class="row">
+<div class="column empat enam"><h2><a href="{{post.url}}">{{ post.title }}</a></h2></div>
+</div>
+<div class="row">
+	<div  class="column satu">
+	<dl>
+<dt>Posted on :</dt>
+<dd>{{ post.date | date_to_string }}</dd>
+</dl>
+	</div>
+	<div class="column tiga">{{ post.excerpt }}</p>
+</div>
 </div>
 </div>
 {% endfor %}
 <div class="row">
-<table class="column grid_10">
+<table class="column empat enam">
 <tr>
 <td class="prev" >{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
 <a href="/" title="previous page">&larr;</a>{% else %}

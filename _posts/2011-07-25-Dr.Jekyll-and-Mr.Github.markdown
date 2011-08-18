@@ -2,6 +2,7 @@
 title: Dr.Jekyll and Mr.Github
 layout: post
 categories: [Uncategorized]
+excerpt: "Dokumentasi pengalaman pribadi membuat personal blog di Github Pages dengan bantuan Jekyll."
 ---
 <a href="https://github.com/timbul/timbul.github.com"><img class="kiri" alt="Octocat" src="/images/octocat.png"></a>
 Akhirnya saya bisa membuat personal blog di [Github Pages][1] dengan bantuan [Jekyll][2]. Awalnya saya menemui kendala dalam instalasi Ruby dan Jekyll yang menurut saya cukup merepotkan, mungkin karena saya pakai Windows dan awam soal Ruby, jadi yang saya lakukan beberapa minggu yang lalu adalah googling dan youtubing (halah..) sambil melakukan trial error. Maklum, yang saya tahu cuma Ruby Tuesday lagunya The Rollingstones.

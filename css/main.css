@@ -1,4 +1,3 @@
-@charset "utf-8";
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { background: transparent; border: 0; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
 body { line-height: 1.4; }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
@@ -12,15 +11,21 @@ abbr[title], dfn[title] { border-bottom: 1px dotted #000; cursor: help; }
 table { border-collapse: collapse; border-spacing: 0; }
 hr { border-top: 1px solid #cccccc; border: 0; display: block; height: 1px; margin: 1em 0; padding: 0; }
 input, select { vertical-align: middle; }
-.grid_3 { width: 150px; }
-.grid_5 { width: 245px; }
-.grid_7 { width: 340px; }
-.grid_10 { width: 500px; }
-.column { display: inline; float: left; margin: 0 5px; overflow: hidden; }
-.row { margin: 0 auto 0 50px; overflow: hidden; width: 510px; }
-.row .row { display: inline-block; margin: 0 -5px; width: auto; }
-body { background-color: #4A525A; color: #eee; font: 0.938em 'Copse',Georgia,"Times New Roman",Times,serif; letter-spacing: 0.02em; line-height: 1.4; position: relative; text-shadow: 1px 1px 0 #000000 }
-@font-face { font-family: 'Copse'; font-style: normal; font-weight: normal; src: local('Copse'), url('/css/copse.woff') format('woff'); }
+
+body { background-color: #4A525A; color: #eee; font: 0.938em 'CopseRegular',Georgia,"Times New Roman",Times,serif; letter-spacing: 0.02em; line-height: 1.4; position: relative; text-shadow: 1px 1px 0 #000000 }
+
+@font-face {
+    font-family: 'CopseRegular';
+    src: url('/fonts/copse-webfont.eot');
+    src: url('/fonts/copse-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/copse-webfont.woff') format('woff'),
+         url('/fonts/copse-webfont.ttf') format('truetype'),
+         url('/fonts/copse-webfont.svg#CopseRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 a:link, a:visited { color: #eee; text-decoration: none; }
 a:hover { color: #aaa; text-decoration: none; }
 a:focus { left: 1px; outline: 0; position: relative; top: 1px; }
@@ -28,17 +33,38 @@ article p a:link, article p a:visited { color: #eee; text-decoration: underline;
 article p a:hover { color: #aaa; }
 blockquote { font-family: Georgia,"Times New Roman",Times,serif; font-size: 1.52em; font-style: italic; line-height: 1.3em; margin: 5px; padding: 0 10px 10px; quotes: none; }
 blockquote p { margin-bottom:0; }
-h1, h2, h3, h4, h5 { letter-spacing: -0.02em; margin: 0 0 0.2em; }
-h1, h2 { font-size: 1.875em; font-weight: normal; }
+h2, h3, h4, h5 { letter-spacing: -0.02em; margin: 0 0 0.2em; }
+h1{ font-size: 1.125em; font-weight: normal; }
+h2 { font-size: 1.875em; font-weight: normal; }
 h3 { font-size: 1.125em; font-weight: normal; }
 h4 { font-size: 1em; }
 h5 { font-size: 1.252em; }
 h6 { font-size: 1.52em; }
-nav ul { font-size: 1.375em; letter-spacing: -0.02em; list-style: none; margin: 10px 0 0; text-align: right; }
-	nav ul li { display: inline; padding-left: 20px; padding-left: 20px; }
+h1#title a{padding-left:22px; background:url("/images/icon.png") no-repeat left -118px;}
+h1#title a:hover{background-position: left -138px;}
+nav {position:relative;}
+nav ul { list-style: none; text-align: right; margin:0;}
+nav ul li{ display: inline; margin:0 5px;}
+	nav ul li a{padding-left:17px;}
+	nav ul li  a.about{background:url("/images/icon.png") no-repeat left -38px;}
+	nav ul li  a.home{background:url("/images/icon.png") no-repeat left -19px;}
+	nav ul li  a.archives{background:url("/images/icon.png") no-repeat left 1px;}
+	nav ul li  a.about:hover{background-position: left -98px;}
+	nav ul li  a.home:hover{background-position: left -79px;}
+	nav ul li  a.archives:hover{background-position: left -59px;}
+ul.social{padding-left:26px;}
+ul.social li  a {width:60px; height:55px; display:block; margin-bottom:10px;}
+ul.social li  a.github{background:url("/images/socialicon.png") no-repeat left top;}
+ul.social li  a.twitter{background:url("/images/socialicon.png") no-repeat left -68px;}
+ul.social li  a.tumblr{background:url("/images/socialicon.png") no-repeat left -133px;}
+ul.social li  a.github:hover{background-position: left -192px;}
+ul.social li  a.twitter:hover{background-position: left -260px;}
+ul.social li  a.tumblr:hover{background-position: left -325px;}
 ul { list-style: none; }
 ul, ol { margin: 0 0 1.5em 2em; padding: 0; }
 p { margin: 0 auto 1.52em; }
+dd {margin-bottom:10px;}
+img {max-width:100%;}
 img.kiri { float: left; margin-right: 1.52em; }
 img.kanan { float: right; margin-left: 1.52em; }
 strong { font-weight: 600; }
@@ -51,14 +77,150 @@ del { color: #666; }
 pre, code, tt { display: block; font: 1em 'andale mono','lucida console',monospace; line-height: 1.5; }
 code { background-color: #eee; display: inline; line-height: 1.1em; padding: 0 2px 1px 2px; }
 pre { margin: 1.5em 0; white-space: pre; }
+table tr td { width: 170px; }
 .tengah { text-align: center; }
 .right { text-align: right; }
-.gambar { background: url('/images/bgr.png') left bottom no-repeat; padding-bottom: 10px; position: relative; width: 500px; }
-footer { font-size: 0.938em; line-height: 3em; margin: 20px auto; }
-header { margin: 30px auto 20px; }
-.garis { background-color: #eee; box-shadow: 2px 2px 0px #000000; display: block; height: 3px; margin: 0 auto 0 55px; overflow: hidden; width: 500px; }
-.prev, .next, header, h1, h2 { text-shadow: 2px 2px 0 #000000 }
+.gambar { background: url('/images/bgr.png') left bottom no-repeat; padding-bottom: 10px; position: relative; background-size:100%;}
+footer { font-size: 0.938em; margin: 20px auto; }
+header { margin: 30px auto; }
+.prev, .next, header, h1, h2 { text-shadow: 2px 2px 0 #000000;}
 .prev, .next { font-size: 1.5em; font-weight: bold; }
 .totpages { line-height: 2em; text-align: center; }
-.post { margin-bottom: 20px; margin-top: 20px; }
-table tr td { width: 170px; }
+.judul {margin:0 0 10px;}
+
+.satu { width:120px;}
+.dua { width:240px; }
+.tiga { width:500px; }
+.empat { width:640px; }
+.enam {padding-left:140px;}
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 660px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.satu { display:none !important; }
+.enam {padding-left:0 !important;}
+.dua { width:240px; }
+.tiga, .empat { width:500px; }
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 520px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -5px;
+	width: auto;
+	display: inline-block;
+}
+	
+	}
+	
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+header{margin:25px auto;}
+.gambar { padding-bottom: 9px;}
+nav ul { text-align:left; margin:0;}
+nav ul li{ margin: 2px 2px 0 0;}
+.satu { display:none !important; }
+.enam {padding-left:0 !important;}
+.tiga, .empat { width:450px; }
+.dua { width:215px; }
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 470px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -5px;
+	width: auto;
+	display: inline-block;
+}
+}
+
+@media only screen and (max-width: 479px) {
+body {font: 0.8em 'CopseRegular',Georgia,"Times New Roman",Times,serif;}
+header{margin:10px auto;}
+h2 {font-size:1.5em;}
+.satu { display:none !important; }
+.enam {padding-left:0 !important;}
+.tiga, .empat, .dua { width:220px; }
+nav ul { text-align:left; margin:10px 0 0;}
+.gambar { padding-bottom: 6px;}
+nav ul li{ margin: 0 10px 0 0;}
+.prev, .next, header, h1, h2 { text-shadow: 1px 1px 0 #000000;}
+.column {
+	margin: 0 4px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 232px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -3px;
+	width: auto;
+	display: inline-block;
+}
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+body {font: 0.9em 'CopseRegular',Georgia,"Times New Roman",Times,serif;}
+header{margin:15px auto;}
+h2 {font-size:1.5em;}
+nav ul { text-align:left; margin:15px 0 0;}
+nav ul li{ margin: 0 10px 0 0;}
+.prev, .next, header, h1, h2 { text-shadow: 1px 1px 0 #000000;}
+.gambar { padding-bottom: 6px;}
+.satu { display:none !important; }
+.enam {padding-left:0 !important;}
+.tiga, .empat, .dua { width:280px; }
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -5px;
+	width: auto;
+	display: inline-block;
+}
+}

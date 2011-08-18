@@ -2,6 +2,7 @@
 title: Three Wise Monkey
 layout: post
 categories: [Illustration]
+excerpt: "Gambar tiga marmoset di film Rio yang berpose bagaikan Three Wise Monkey yang terkenal."
 ---
 
 <img class="gambar" alt="three wise monkey" src="https://lh5.googleusercontent.com/-SvcpdQ8GRCc/Ti2mJt5BnjI/AAAAAAAAAJQ/nAnU8k09ujQ/marmoset2.png">

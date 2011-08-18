@@ -2,6 +2,7 @@
 title: Google Plus VS Facebook
 layout: post
 categories: [Illustration]
+excerpt: "Illustrasi Larry Page dan Mark Zuckerberg tentang persaingan Facebook dan Google Plus di ranah jejaring sosial."
 ---
 
 <img class="gambar" alt="Google plus vs Facebook" src="https://lh5.googleusercontent.com/-ZlONNxuyCtI/TjRtk6lBVsI/AAAAAAAAAJw/v1EQuUACvEw/gplus.png">
