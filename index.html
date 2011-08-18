@@ -20,7 +20,8 @@ title: Heru's Personal Blog
 </div>
 {% endfor %}
 <div class="row">
-<table class="column tiga enam">
+<div class="column tiga enam">
+<table>
 <tr>
 <td class="prev" >{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
 <a href="/" title="previous page">&larr;</a>{% else %}
@@ -36,5 +37,5 @@ title: Heru's Personal Blog
 {% else %}{% endif %}
 </td>
 </tr>
-</table>
+</table></div>
 </div>
