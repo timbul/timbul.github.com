@@ -5,7 +5,7 @@ title: Heru's Personal Blog
 {% for post in paginator.posts %}
 <div class="post"  id="postid-{{post.id}}">
 <div class="row">
-<div class="column empat enam"><h2><a href="{{post.url}}">{{ post.title }}</a></h2></div>
+<div class="column tiga enam"><h2><a href="{{post.url}}">{{ post.title }}</a></h2></div>
 </div>
 <div class="row">
 	<div  class="column satu">
@@ -20,7 +20,7 @@ title: Heru's Personal Blog
 </div>
 {% endfor %}
 <div class="row">
-<table class="column empat enam">
+<table class="column tiga enam">
 <tr>
 <td class="prev" >{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
 <a href="/" title="previous page">&larr;</a>{% else %}
