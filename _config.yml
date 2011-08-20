@@ -1,6 +1,6 @@
-name: Timbulog
+name: Sarimin
 markdown: rdiscount
 pygments: true
 permalink: pretty
-paginate: 3
+paginate: 4
 

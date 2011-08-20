@@ -5,7 +5,7 @@ categories: [Video]
 excerpt: "Video dari Polder Animation di Vimeo tentang anak kecil yang jatuh cinta kepada tetangganya yang lebih tua."
 ---
 
-<iframe class="gambar" src="http://player.vimeo.com/video/25475500?title=0&amp;byline=0&amp;portrait=0" width="500" height="281"></iframe>
+<div class="vid-wrap"><div class="vid-container"><iframe src="http://player.vimeo.com/video/25475500?title=0&amp;byline=0&amp;portrait=0" width="500" height="281"></iframe></div></div>
 
 Video dengan teknologi 3D Animasi yang berdurasi 8 menit, bercerita tentang anak kecil yang baru pindah rumah dan jatuh cinta kepada tetangganya yang lebih tua.
 

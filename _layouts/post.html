@@ -3,21 +3,18 @@ layout: default
 ---
 <div class="post">
 <div class="row">
-	<div class="column tiga enam"><h2 class="judul">{{ page.title }}</h2></div>
+<div class="column tiga enam"><h2 class="judul">{{ page.title }}</h2></div>
 </div>
 <div class="row">
-	<div  class="column satu">
-	<dl>
+<div  class="column satu">
+<dl>
 <dt>Posted on :</dt>
 <dd>{{ page.date | date_to_string }}</dd>
 <dt>Tag :</dt>{% for tag in page.categories %}
-<dd><a rel="tag" href="/archives#{{ tag }}">{{ tag }}</a></dd>{% endfor %}
-<dt>Comment :</dt>
-<dd><a href='{{ post.url }}#disqus_thread'>View Comments</a></dd>
+<dd><a rel="tag" href="/archives/#{{ tag }}">{{ tag }}</a></dd>{% endfor %}
 </dl>
-	</div>
-	<div class="column tiga">{{ content }}</p>
 </div>
+<div class="column tiga">{{ content }}</div>
 </div>
 </div>
 
