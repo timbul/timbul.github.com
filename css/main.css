@@ -34,7 +34,6 @@ header, article, footer { width: 670px; margin: 20px auto; padding: 0 160px 0 10
 * html body article ul.meta { padding-right: 12px; }
 *:first-child+html body article ul.meta { padding-right: 12px; }
 #social { width: 65px; padding: 0 15px 0 80px; }
-.full { width: 670px; padding-bottom: 12px; }
 .list { width: 355px; display: inline-block; }
 article #archives ol li time { width: 110px; display: inline-block; text-align: right; }
 #comment { width: 670px; }
@@ -56,6 +55,7 @@ nav { position: relative; font-size: 2em; padding-top: 11px; }
 img { border: none; }
 .push { margin-left: 170px !important; }
 .gambar, .vidvim iframe, .vidyou iframe { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 10px; background-size: 100%; }
+.full { width: 670px; padding-bottom: 12px; }
 .meta p, #comment p { padding-left: 0 !important; }
 #judul { margin-bottom: 10px; border-bottom: 1px solid #888; }
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
