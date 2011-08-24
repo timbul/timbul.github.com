@@ -1,54 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>{{site.name}} - {{ page.title }}</title>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-<meta name="author" content="Heru Setiawan" />
-<meta name="description" content="Heru's Personal blog" />
-<meta name="google-site-verification" content="H4HVexSpKGJLO9-E59JICKhXcVBrR6cgid_sHHbF50E" />
-<meta name="keywords" content="heru, setiawan, timbul, timbulog" />
-<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-<link href='/css/main.css' rel='stylesheet' type='text/css' />
-<link href="/css/media-queries.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-<link href='/atom.xml' rel='alternate' title='Timbulog' type='application/atom+xml'/>
-<!--[if lt IE 9]>
-	<script type="text/javascript" src="/js/html5.js"></script>
-<![endif]-->
-</head>
+{% include head.html %}
 <body>
-<header>
-<div class="row">
-<div class="column dua enam"><h1 id="title"><a title="Heru's Personal Blog" href="/">{{site.name}}</a></h1></div>
-<nav class="column dua">
-<ul>
-<li><a class="home" title="Home" href="/">Home</a></li>
-<li><a  class="about" title="About me" href="/about/">About</a></li>
-<li><a class="archives" title="All my posts" href="/archives/">Archives</a></li>
-</ul></nav>
-</div>
-</header>
-
-<article>
-{{ content }}
-</article>
-
-<footer>
-<div class="row">
-<div class="column tiga enam tengah"><p>Copyright &copy; 2011 by <a href="http://sarim.in/about/">Heru Setiawan</a></p>
-<p>Created using <a href="https://github.com/mojombo/jekyll">Jekyll</a> and hosted on <a href="http://pages.github.com/">GitHub Pages.</a></p></div>
-</div>
-</footer>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-25256672-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+{% include header.html %}
+{% include article.html %}
+{% include footer.html %}
+{% include ga.html %}
 </body>
 </html>

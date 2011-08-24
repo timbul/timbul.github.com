@@ -1,40 +1,10 @@
 ---
 layout: default
 title: Heru's Personal Blog
+metakeywords: "sarimin, Heru Setiawan, personal blog, dokumentasi"
 ---
-{% for post in paginator.posts %}
-<div class="post"  id="postid-{{post.id}}">
-<div class="row">
-<div class="column tiga enam"><h2 class="judul"><a href="{{post.url}}">{{ post.title }}</a></h2></div>
-</div>
-<div class="row">
-	<div  class="column satu">
-	<dl>
-<dt>Posted on :</dt>
-<dd>{{ post.date | date_to_string }}</dd>
-</dl>
-	</div>
-	<div class="column tiga">{{ post.excerpt }}</div>
-</div>
-</div>
+
+<h2 id="judul" class="push">Recent Posts</h2>{% for post in paginator.posts %}
+{% include post_list.html %}
 {% endfor %}
-<div class="row">
-<div class="column tiga enam">
-<table>
-<tr>
-<td class="prev" >{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
-<a href="/" title="previous page">&larr;</a>{% else %}
-<a href="/page{{ paginator.previous_page }}" title="previous page">&larr;</a>{% endif %}
-{% else %}{% endif %}
-</td>
-
-<td class="totpages">Page {{ paginator.page }} of {{ paginator.total_pages }}
-</td>
-
-<td class="next right">{% if paginator.next_page %}
-<a href="/page{{ paginator.next_page }}/" title="next page">&rarr;</a>
-{% else %}{% endif %}
-</td>
-</tr>
-</table></div>
-</div>
+{% include pagination.html %}

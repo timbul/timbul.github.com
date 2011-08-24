@@ -1,42 +1,9 @@
 ---
 title: Archives
 layout: default
+metakeywords: "sarimin, Heru Setiawan, daftar postingan, arsip, personal blog, dokumentasi"
 ---
 
-<div class="post">
-<div class="row">
-<div class="column tiga enam"><h2 class="judul">{{ page.title }}</h2></div>
-</div>
-
-<div class="row">
-<div  class="column satu">
-<ul class="social">
-<li><a class="github" title="github" href="https://github.com/timbul/timbul.github.com"></a></li>
-<li><a  class="twitter" title="twitter" href="http://twitter.com/hrstwn"></a></li>
-<li><a class="tumblr" title="tumblr" href="http://timbul.tumblr.com/"></a></li></ul>
-</div>
-<div class="column tiga">
-<div id="Uncategorized">
-<h3>Uncategorized</h3></div>
-<ol>
-{% for post in site.categories['Uncategorized'] %}
-<li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ol>
-<div id="Illustration">
-<h3>Illustration</h3></div>
-<ol>
-{% for post in site.categories['Illustration'] %}
-<li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ol>
-<div id="Video">
-<h3>Video</h3></div>
-<ol>
-{% for post in site.categories['Video'] %}
-<li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ol>
-</div>
-</div>
-</div>
+<h2 id="judul" class="push">{{ page.title }}</h2>
+{% include social.html %}
+{% include archives_list.html %}
