@@ -65,7 +65,7 @@ td.totpages {text-align:center;}
 article p, article h4 {padding-left:170px;}
 .post h2 {font-size:1.5em;}
 .post ul.meta {padding-top:14px;}
-.first {float:left; text-align-left; margin-right:1em;}
+.first {float:left; text-align:left; margin-right:1em;}
 #bottom p {margin-bottom: 0; }
 #comment h3 {margin-left:165px; border-bottom:1px solid #888;}
 #bottom {border-top: 1px solid #888; font-size:.9em;}
