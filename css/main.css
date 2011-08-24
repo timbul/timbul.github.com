@@ -36,7 +36,7 @@ header, article, footer { width: 670px; margin: 20px auto; padding: 0 160px 0 10
 #social { width: 65px; padding: 0 15px 0 80px; }
 .full { width: 670px; padding-bottom: 12px; }
 .list { width: 355px; display: inline-block; }
-time { width: 110px; display: inline-block; text-align: right; }
+article #archives ol li time { width: 110px; display: inline-block; text-align: right; }
 #comment { width: 670px; }
 table tr td { width: 164px; }
 .next, .right { text-align: right; }
