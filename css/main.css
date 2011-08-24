@@ -24,7 +24,8 @@ a:link, a:visited{ color: #eee; border-bottom: 1px solid #888;  text-decoration:
 a:hover { color: #fff; background-color: #888; text-shadow:none;}
 a:focus { outline: 0; background-color: #777; text-shadow:none; color:#ddd;}
 
-.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited { color: #eee;border:none;}
+.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #eee;border:none;}
+.dsq-avatar a:hover { background-color: none;}
 
 h1, h2, h3, h4 {font-weight:normal;}
 h1 {font-size: 2.5em;}
