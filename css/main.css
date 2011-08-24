@@ -50,6 +50,7 @@ header, article, footer{	width: 670px;	margin: 20px auto;	padding:0 160px 0 10px
 #title, nav, #bottomr, #bottoml {width: 240px; }
 #judul {width:500px;}
 .meta {  width: 140px; padding: 4px 15px 0 5px; text-align: right; font-size:.9em;}
+* html body article ul.meta {padding-right:12px;}
 #social {  width: 65px; padding:0 15px 0 80px;}
 .full { width:670px; padding-bottom:12px;}
 .list {width: 355px; display:inline-block;}
