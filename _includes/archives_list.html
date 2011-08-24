@@ -1,0 +1,14 @@
+<div id="archives">
+<h3 id="Uncategorized">Uncategorized</h3>
+<ol>{% for post in site.categories['Uncategorized'] %}
+<li><a class="list" href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date_to_string }}</time></li>{% endfor %}
+</ol>
+<h3 id="Illustration">Illustration</h3>
+<ol>{% for post in site.categories['Illustration'] %}
+<li><a class="list" href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date_to_string }}</time></li>{% endfor %}
+</ol>
+<h3 id="Video">Video</h3>
+<ol>{% for post in site.categories['Video'] %}
+<li><a class="list" href="{{ post.url }}">{{ post.title }}</a><time>{{ post.date | date_to_string }}</time></li>{% endfor %}
+</ol>
+</div>

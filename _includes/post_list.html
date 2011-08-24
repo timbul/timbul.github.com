@@ -1,0 +1,8 @@
+<div class="post" id="postid-{{post.id}}">
+<ul class="meta">
+<li>{{ post.date | date_to_string }}</li>{% for tag in post.categories %}
+<li><a rel="tag" href="/archives/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+</ul>
+<h2 class="push"><a href="{{post.url}}">{{ post.title }}</a></h2>
+<p>{{ post.excerpt }}</p>
+</div>
