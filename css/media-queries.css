@@ -2,7 +2,7 @@
 header, article, footer {padding: 0 15px 0 5px;}
 }
 	
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 640px) {
 header, article, footer {padding: 0 10px; width: 500px;}
 blockquote { font-family: georgia, serif; font-style: italic; padding: 0 0 1em 0; text-align: left; width: 100%;}
 #archives { padding-left: 0; }
@@ -51,4 +51,28 @@ article #archives ol li time {display:none;}
 p {margin-bottom: .9em;}
 .vidvim iframe { width: 100%; height: 158px; }
 .vidyou iframe { width: 280px; height: 187px; }
+}
+
+@media screen and (max-width: 240px) {
+header, article, footer {padding: 0; width:220px; margin: 10px auto;}
+body {font-size:.9em;}
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.4em; line-height: 1.3; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.25em; }
+.post h2 { font-size: 1.3em; }
+#title, nav  {margin: 0; width:220px;}
+#bottomr, #bottoml {margin: 0; width:220px; padding: 5px 0 5px 0; text-align:left;}
+nav {padding-top: 7px; font-size:1.4em;}
+nav ul {text-align:left}
+nav ul li { margin: 0 4px 0 0; }
+.list { width: 100%;}
+article #archives ol li time {display:none;}
+.full, .gambar, .vidvim iframe, .vidyou iframe {padding-bottom: 4px; }
+#judul { width: 220px; margin:0 0 8px;}
+p {margin-bottom: .9em;}
+.vidvim iframe { width: 100%; height: 158px; }
+.vidyou iframe { width: 280px; height: 187px; }
+.vidvim iframe { width: 100%; height: 124px; }
+.vidyou iframe { width: 220px; height: 153px; }
 }
