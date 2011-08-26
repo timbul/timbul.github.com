@@ -27,7 +27,7 @@ abbr { border-bottom: 1px dashed #888; cursor: help; font-size: .9em; }
 
 header, article, footer { width: 620px; margin: 20px auto; padding: 0 100px 0 20px; overflow: hidden; }
 #title, nav, #bottomr, #bottoml { width: 250px; }
-#judul, #bottom , #comment, #archives{ width: 500px; }
+#judul, #bottom , #comment{ width: 500px; }
 .meta, blockquote, figcaption  { width: 100px; }
 .prev, .totpages, .next { width: 166.66px; }
 #social { width: 65px; }
@@ -37,7 +37,7 @@ header, article, footer { width: 620px; margin: 20px auto; padding: 0 100px 0 20
 article #archives ol li time {width:110px;}
 
 .push, article p, article h4, #archives{ margin-left:120px;}
-nav, #title, #judul, #archives, .meta, #comment, #bottomr, #bottoml, #social {overflow: hidden; float: left; display: inline; }
+nav, #title, #judul, .meta, #comment, #bottomr, #bottoml, #social {overflow: hidden; float: left; display: inline; }
 nav {position: relative; padding-top: 8px;}
 nav ul {list-style: none; text-align: right; margin: 0; }
 nav ul li {display: inline;margin: 0 4px;}

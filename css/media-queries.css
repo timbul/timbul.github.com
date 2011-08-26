@@ -12,7 +12,7 @@ blockquote, figcaption  {margin: 0 0 1em 0; text-align: center; border:none;}
 @media screen and (max-width: 650px) {
 header, article, footer { width: 480px; margin: 15px auto;}
 #title, nav, #bottomr, #bottoml { width: 240px; }
-#judul, #archives, #bottom , #comment, .meta, blockquote, figcaption { width: 480px; }
+#judul, #bottom , #comment, .meta, blockquote, figcaption { width: 480px; }
  { width: 480px; }
 .prev, .totpages, .next { width: 160px; }
 .post ul.meta, #social  { display:none;}
@@ -27,7 +27,7 @@ article #archives ol li time {width:100px;}
 body{font-size: .9375em; -webkit-text-size-adjust: none;}
 header, article, footer { width: 360px; margin: 15px auto;}
 #title, nav, #bottomr, #bottoml { width: 180px; }
-#judul, #archives, #bottom , #comment, .meta, blockquote, figcaption { width: 360px; }
+#judul, #bottom , #comment, .meta, blockquote, figcaption { width: 360px; }
 .prev, .totpages, .next { width: 120px; }
 .list {width: auto;}
 #archives ol li:hover { background-color: transparent; }
@@ -48,7 +48,7 @@ nav { font-size: 1.75em; }
 body{font-size: .875em;}
 p { margin-bottom: .9375em; }
 header, article, footer { width: 240px; margin: 10px auto;}
-#bottomr, #bottoml, #judul, #archives, #bottom , #comment, .meta, blockquote, figcaption { width: 240px; }
+#bottomr, #bottoml, #judul, #bottom , #comment, .meta, blockquote, figcaption { width: 240px; }
 #title, nav { width: 120px; }
 .prev, .next { width: 120px; }
 .totpages, article #archives ol li time, .post ul.meta, #social, #bottomr {display:none;}
@@ -68,7 +68,7 @@ nav ul li {margin: 0 0 0 2px;}
 body{font-size: .8125em;}
 p { margin-bottom: .875em; }
 header, article, footer { width: 200px; margin: 8px auto;}
-#bottomr, #bottoml, #judul, #archives, #bottom , #comment, .meta, blockquote, figcaption { width: 200px; }
+#bottomr, #bottoml, #judul, #bottom , #comment, .meta, blockquote, figcaption { width: 200px; }
 #title { width: 80px; }
 .prev, .next { width: 100px; }
 .totpages, article #archives ol li time, .post ul.meta, #social, #bottomr {display:none;}
