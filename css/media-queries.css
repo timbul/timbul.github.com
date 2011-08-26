@@ -15,6 +15,7 @@ header, article, footer { width: 480px; margin: 15px auto;}
 #judul, #bottom , #comment, .meta, blockquote, figcaption { width: 480px; }
  { width: 480px; }
 .prev, .totpages, .next { width: 160px; }
+.post ul.meta, #social  { display:none;}
 .list {width: 345px;}
 article #archives ol li time {width:100px;}
 .full img, .gambar img, .vidvim iframe, .vidyou iframe {padding-bottom: 8px;}
@@ -30,7 +31,7 @@ header, article, footer { width: 360px; margin: 15px auto;}
 .prev, .totpages, .next { width: 120px; }
 .list {width: auto;}
 #archives ol li:hover { background-color: transparent; }
-article #archives ol li time {display:none;}
+article #archives ol li time, .post ul.meta, #social {display:none;}
 nav ul li {margin: 1px;}
 .full img, .gambar img, .vidvim iframe, .vidyou iframe {padding-bottom: 6px;}
 h1 { font-size: 2.125em; }
@@ -50,7 +51,7 @@ header, article, footer { width: 240px; margin: 10px auto;}
 #bottomr, #bottoml, #judul, #bottom , #comment, .meta, blockquote, figcaption { width: 240px; }
 #title, nav { width: 120px; }
 .prev, .next { width: 120px; }
-.totpages {display:none;}
+.totpages, article #archives ol li time, .post ul.meta, #social, #bottomr {display:none;}
 .full img, .gambar img, .vidvim iframe, .vidyou iframe {padding-bottom: 4px;}
 h1 { font-size: 1.625em; }
 h2 { font-size: 1.5em;}
@@ -59,7 +60,6 @@ h3 { font-size: 1.125em; }
 h4 { font-size: 1.125em; }
 nav { font-size: 1.15em; padding-top:9px;}
 nav ul li {margin: 0 0 0 2px;}
-#bottomr {display:none;}
 .vidvim iframe { width: 100%; height: 180px; }
 .vidyou iframe { width: 320px; height: 232px; }
 }
@@ -71,6 +71,7 @@ header, article, footer { width: 200px; margin: 8px auto;}
 #bottomr, #bottoml, #judul, #bottom , #comment, .meta, blockquote, figcaption { width: 200px; }
 #title { width: 80px; }
 .prev, .next { width: 100px; }
+.totpages, article #archives ol li time, .post ul.meta, #social, #bottomr {display:none;}
 h1 { font-size: 1.5em; }
 h2 { font-size: 1.375em;}
 .post h2 { font-size: 1.25em; }

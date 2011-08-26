@@ -5,7 +5,7 @@ blockquote, q { quotes: none; }
 a { background: transparent; color: #eee; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; }
 ul { list-style: none; }
 ol { list-style-type: square; }
-ul, ol { margin: 0 0 1em 2em; padding: 0; }
+ul, ol { margin: 0 0 16px 32px; padding: 0; }
 body { background-color: #4A525A; color: #eee; font: 1em/1.4 'PTSansRegular', Arial, sans-serif; }
 @font-face { font-family: 'PTSansRegular'; src: url('/fonts/PTS55F-webfont.eot'); src: url('/fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/PTS55F-webfont.woff') format('woff'), url('/fonts/PTS55F-webfont.ttf') format('truetype'), url('/fonts/PTS55F-webfont.svg#PTSansRegular') format('svg'); font-weight: normal; font-style: normal; }
 a:link, a:visited { color: #eee; border-bottom: 1px solid #888; text-decoration: none; }
