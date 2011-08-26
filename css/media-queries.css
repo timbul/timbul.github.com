@@ -8,6 +8,19 @@ ul.meta li {display:inline; margin-right:10px;}
 blockquote, figcaption  {margin: 0 0 1em 0; text-align: center; border:none;}
 .full img{padding-bottom: 9px;}
 }
+	
+@media screen and (max-width: 650px) {
+header, article, footer { width: 480px; margin: 15px auto;}
+#title, nav, #bottomr, #bottoml { width: 240px; }
+#judul, #bottom , #comment, .meta, blockquote, figcaption { width: 480px; }
+ { width: 480px; }
+.prev, .totpages, .next { width: 160px; }
+.list {width: 345px;}
+article #archives ol li time {width:100px;}
+.full img, .gambar img, .vidvim iframe, .vidyou iframe {padding-bottom: 8px;}
+.vidvim iframe { width: 100%; height: 270px; }
+.vidyou iframe { width: 480px; height: 232px; }
+}
 
 @media screen and (max-width: 480px) {
 body{font-size: .9375em; -webkit-text-size-adjust: none;}
