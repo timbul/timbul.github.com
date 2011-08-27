@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 header, article, footer { width: 500px; margin: 20px auto; padding: 0;}
 .meta, blockquote, figcaption   { width: 500px; }
 .meta {margin:0; text-align: left; line-height:1.5;}
@@ -9,7 +9,7 @@ blockquote, figcaption  {margin: 0 0 1em 0; text-align: center; border:none;}
 .full img{padding-bottom: 9px;}
 }
 	
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 639px) {
 header, article, footer { width: 480px; margin: 15px auto;}
 #title, nav, #bottomr, #bottoml { width: 240px; }
 #judul, #bottom , #comment, .meta, blockquote, figcaption { width: 480px; }
@@ -23,7 +23,7 @@ article #archives ol li time {width:100px;}
 .vidyou iframe { width: 480px; height: 232px; }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
 body{font-size: .9375em; -webkit-text-size-adjust: none;}
 header, article, footer { width: 360px; margin: 15px auto;}
 #title, nav, #bottomr, #bottoml { width: 180px; }
@@ -44,7 +44,7 @@ nav { font-size: 1.75em; }
 .vidyou iframe { width: 360px; height: 232px; }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
 body{font-size: .875em;}
 p { margin-bottom: .9375em; }
 header, article, footer { width: 240px; margin: 10px auto;}
@@ -64,7 +64,7 @@ nav ul li {margin: 0 0 0 2px;}
 .vidyou iframe { width: 320px; height: 232px; }
 }
 
-@media screen and (max-width: 240px) {
+@media screen and (max-width: 239px) {
 body{font-size: .8125em;}
 p { margin-bottom: .875em; }
 header, article, footer { width: 200px; margin: 8px auto;}
