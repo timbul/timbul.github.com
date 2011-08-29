@@ -50,7 +50,7 @@ nav {top:0; right:20px; position:absolute; margin-top: 8px;}
 	nav ul {margin:0;}
 	nav li {float:left; margin-left:20px;}
 article h2 {margin-bottom:10px; border-bottom:1px solid #888;}
-
+.right {text-align:right;}
 /*sidebar*/
 .meta, blockquote, figcaption {width:100%; color:#ccc; text-align:center; margin-bottom:1em;}
 figcaption {margin-top:1em;}
