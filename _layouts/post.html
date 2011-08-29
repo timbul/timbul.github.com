@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<h2 id="judul" class="push">{{ page.title }}</h2>
-{% include meta.html %}
+
+<section id="content">
+<h2>{{ page.title }}</h2>
 {{ content }}
+{% include meta.html %}
+</section>
 {% include comment.html %}

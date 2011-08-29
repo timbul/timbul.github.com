@@ -3,6 +3,10 @@ layout: default
 title: When I Was 9 Years Old
 metakeywords: "sarimin, Heru Setiawan, personal blog, about me, dokumentasi"
 ---
-<h2 id="judul" class="push">{{ page.title }}</h2>
-{% include social.html %}
+
+<section id="content">
+<h2>{{ page.title }}</h2>
+{{ content }}
 {% include about_post.html %}
+{% include social.html %}
+</section>

@@ -4,6 +4,7 @@ layout: default
 metakeywords: "sarimin, Heru Setiawan, daftar postingan, arsip, personal blog, dokumentasi"
 ---
 
-<h2 id="judul" class="push">{{ page.title }}</h2>
-{% include social.html %}
+<h2>{{ page.title }}</h2>
+{{ content }}
 {% include archives_list.html %}
+{% include social.html %}

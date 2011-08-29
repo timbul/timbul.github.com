@@ -4,7 +4,9 @@ title: Heru's Personal Blog
 metakeywords: "sarimin, Heru Setiawan, personal blog, dokumentasi"
 ---
 
-<h2 id="judul" class="push">Monkey Business</h2>{% for post in paginator.posts %}
+<section id="content">
+<h2>Monkey Business</h2>{% for post in paginator.posts %}
 {% include post_list.html %}
 {% endfor %}
+</section>
 {% include pagination.html %}

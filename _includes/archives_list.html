@@ -1,4 +1,4 @@
-<div id="archives">
+<section id="archives">
 <h3 id="Uncategorized">Uncategorized</h3>
 <ol>{% for post in site.categories['Uncategorized'] %}
 <li><a class="list" href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></li>{% endfor %}
@@ -11,4 +11,4 @@
 <ol>{% for post in site.categories['Video'] %}
 <li><a class="list" href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></li>{% endfor %}
 </ol>
-</div>
+</section>

@@ -1,18 +1,27 @@
-@charset "utf-8";
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { background: transparent; border: 0; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
-blockquote, q { quotes: none; }
-a { background: transparent; color: #eee; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; }
-ul { list-style: none; }
-ol { list-style-type: square; }
-ul, ol { margin: 0 0 16px 32px; padding: 0; }
-body { background-color: #4A525A; color: #eee; font: 1em/1.4 'PTSansRegular', Arial, sans-serif; }
+/*reset*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul { list-style: none; margin:0; padding:0;}
+ol { list-style-type: square; margin: 0 0 1em 2em; padding: 0;}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+a img {border: 0;}
+
+/*typo*/
 @font-face { font-family: 'PTSansRegular'; src: url('/fonts/PTS55F-webfont.eot'); src: url('/fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/PTS55F-webfont.woff') format('woff'), url('/fonts/PTS55F-webfont.ttf') format('truetype'), url('/fonts/PTS55F-webfont.svg#PTSansRegular') format('svg'); font-weight: normal; font-style: normal; }
-a:link, a:visited { color: #eee; border-bottom: 1px solid #888; text-decoration: none; }
-a:hover { color: #fff; background-color: #888;}
-a:focus { outline: 0; background-color: #777; color: #ddd; }
-.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #eee; border: none; }
-.dsq-avatar a:hover { background-color: transparent; }
+
 h1, h2, h3, h4 { font-weight: normal; }
 h1 { font-size: 2.25em; }
 h2 { font-size: 1.875em; line-height: 1.3; }
@@ -20,41 +29,118 @@ h2 { font-size: 1.875em; line-height: 1.3; }
 h3 { font-size: 1.375em; }
 h4 { font-size: 1.25em; }
 nav { font-size: 1.875em; }
-dd { margin-bottom: 10px; }
+.meta, blockquote, figcaption, footer p{ font-size: .875em; }
+* html body footer p {font-size: 14px;}
+* :first-child+html body footer p {font-size: 14px;}
+
 img { max-width: 100%; }
 p { margin-bottom: 1em; }
-abbr { border-bottom: 1px dashed #888; cursor: help; font-size: .9em; }
 
-header, article, footer { width: 620px; margin: 20px auto; padding: 0 100px 0 20px; overflow: hidden; }
-#title, nav, #bottomr, #bottoml { width: 250px; }
-#judul, #bottom , #comment{ width: 500px; }
-.meta, blockquote, figcaption  { width: 100px; }
-.prev, .totpages, .next { width: 166.66px; }
-#social { width: 65px; }
-* html body article ul#social {width: 75px; margin-left:25px;}
-* :first-child+html body article ul#social {width: 75px; margin-left:25px;}
-.list {width: 355px;}
-article #archives ol li time {width:110px;}
+a:link, a:visited { color: #eee; border-bottom: 1px solid #888; text-decoration: none; }
+a:hover { color: #fff; background-color: #888;}
+a:focus { outline: 0; background-color: #777; color: #ddd; }
+.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #eee; border: none; }
+.dsq-avatar a:hover { background-color: transparent; }
 
-.push, article p, article h4, #archives{ margin-left:120px;}
-nav, #title, #judul, .meta, #comment, #bottomr, #bottoml, #social {overflow: hidden; float: left; display: inline; }
-nav {position: relative; padding-top: 8px;}
-nav ul {list-style: none; text-align: right; margin: 0; }
-nav ul li {display: inline;margin: 0 4px;}
-#judul { margin-bottom:10px; border-bottom: 1px solid #888;}
-.post ul.meta { margin-top: 14px;}
-.meta {margin: 4px 20px 0 0; text-align: right; font-size: .875em;}
-.meta, ul.meta li a, blockquote, figcaption {color: #ccc;}
-* html body article ul.meta { margin-right: 17px; }
-*:first-child+html body article ul.meta { margin-right: 17px; }
-.totpages {text-align: center;}
-.next, .right {text-align: right;}
-#bottom {border-top: 1px solid #888;font-size: .875em;}
-#bottomr, #bottoml {padding: 5px 0 20px 0;}
-#bottom p {margin-bottom: 0;}
-#bottomr {text-align: right;}
+/*style*/
+body { background-color: #414141; color: #eee; font: 1em/1.4 'PTSansRegular', Arial, sans-serif; padding:0; position: relative;}
+header, article, footer  {width:500px; padding-left: 20px;	padding-right: 20px; margin: 20px auto; position: relative;}
+header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, #comment{margin-left:0px;}
+nav {top:0; right:20px; position:absolute; margin-top: 8px;}
+	nav ul {margin:0;}
+	nav li {float:left; margin-left:20px;}
+article h2 {margin-bottom:10px; border-bottom:1px solid #888;}
 
-#social {margin: 0 20px 0 35px;}
+/*sidebar*/
+.meta {text-align:left;}
+blockquote, figcaption {width:100%; color:#ccc; text-align:center; margin-bottom:1em;}
+.meta {position: relative; top:0; margin-top: 0;}
+	ul.meta li {display: inline;}
+blockquote, figcaption {float:left;}
+blockquote {font-family:georgia, serif; font-style: italic;}
+
+/*img*/
+.first {float:left; margin-right:1em;}
+.gambar, .vidvim iframe, .vidyou iframe, .full  { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 9px; background-size: 100%; }
+* html body article #content .full img {width:500px;}
+* :first-child+html body article #content .full img {width:500px;}
+
+/*footer*/
+footer p {border-top:1px solid #888;}
+
+/*arsip*/
+#archives ol li a.list {border: none;}
+#archives ol li:hover { background-color: #999; }
+.list {display: inline-block; width: 355px;}
+article #archives ol li time {display: inline-block;text-align: right; width:110px;}
+#social {display:none;}
+
+/*index*/
+.post {position:relative;}
+.post h2 { border:none; margin-bottom:0;}
+/* .post ul.meta {top:auto; bottom:0; left:0; margin-top: 0;} */
+.post ul.meta {display:none;}
+
+/*pagnav*/
+#pagnav {position: relative; text-align:center; }
+.next, .prev {position: absolute;}
+.next {right:0;}
+.prev {left:0;}
+* html body article #pagnav {text-align:left; }
+* html body article #pagnav .next {right:20px;}
+* html body article #pagnav .totpages{padding-left:200px;}
+* :first-child+html body article #pagnav {text-align:left; }
+* :first-child+html body article #pagnav .next {right:20px;}
+* :first-child+html body article #pagnav .totpages{padding-left:200px;}
+
+/*media Querries*/
+@media screen and (min-width: 480px) and (max-width: 538px) {
+header, article, footer  {width:440px; }
+.list {display: inline-block; width: 305px;}
+article #archives ol li time {display: inline-block;text-align: right; width:100px;}
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+body {font-size: .875em;}
+h1 { font-size: 1.875em; }
+h2 { font-size: 1.5em; line-height: 1.3; }
+.post h2 { font-size: 1.25em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.125em; }
+nav { font-size: 1.5em; }
+nav {top:0; right:10px; margin-top:6px;}
+header, article, footer  {width:300px; padding-left: 10px;	padding-right: 10px; margin: 10px auto;}
+.list {display: inline-block; width: auto;}
+article #archives ol li time {display: none;}
+p, .first { margin-bottom: .625em; }
+.gambar, .vidvim iframe, .vidyou iframe, .full, .full  { padding-bottom: 6px; }
+}
+
+@media screen and (max-width: 319px) {
+body {font-size: .875em;}
+h1 { font-size: 1.35em; }
+h2 { font-size: 1.125em; line-height: 1.3; }
+.post h2 { font-size: 1.125em; }
+h3 { font-size: 1.125em; }
+h4 { font-size: 1.125em; }
+nav { font-size: 1.125em; }
+nav {top:0; right:10px; margin-top:4px;}
+nav li { margin-left:10px;}
+header, article, footer  {width:200px; padding-left: 10px;	padding-right: 10px; margin: 10px auto;}
+.list {display: inline-block; width: auto;}
+article #archives ol li time {display: none;}
+p, .first { margin-bottom: .625em; }
+.gambar, .vidvim iframe, .vidyou iframe, .full { padding-bottom: 4px; }
+}
+
+@media screen and (min-width: 768px) {
+header, article, footer  {width:620px; padding-right: 100px; }
+header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, #comment {margin-left:120px;}
+nav { right:100px; }
+.meta, blockquote, figcaption {width:100px; text-align:right;}
+.meta {position: absolute; top:0; margin-top: 53px;} /* ul.meta li ? */
+#social {margin: 0 20px 0 35px; width: 65px; position: absolute; top:0; margin-top: 53px; display:block;}
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
 	ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }
 	ul#social li  a.twitter { background: url("/images/socialicon.png") no-repeat left -68px; }
@@ -62,18 +148,7 @@ ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px
 	ul#social li  a.github:hover { background-position: left -192px; }
 	ul#social li  a.twitter:hover { background-position: left -260px; }
 	ul#social li  a.tumblr:hover { background-position: left -325px; }
-.first {float: left;text-align: left;margin-right: 1em; }
-#archives ol li a.list {border: none;}
-#archives ol li:hover { background-color: #999; }
-.list {display: inline-block;}
-article #archives ol li time {display: inline-block;text-align: right;}
-blockquote {float: left;font-family: georgia, serif;font-style: italic;margin: 0 20px 0 0;text-align: right; font-size: .875em;border-bottom: 1px solid #888;}
-* html body article blockquote { margin-right: 15px; }
-*:first-child+html body article blockquote { margin-right: 15px; }
-figcaption {float: left;margin: 0 20px 0 0;text-align: right; font-size: .875em;}
-* html body article figcaption { margin-right: 15px; }
-*:first-child+html body article figcaption { margin-right: 15px; }
-.gambar img, .vidvim iframe, .vidyou iframe { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 9px; background-size: 100%; }
-.full img{padding-bottom: 12px;}
-* html body article figure.gambar.full img {width:620px;}
-* :first-child+html body article figure.gambar.full img {width:620px;}
+.post ul.meta {top:auto; bottom:0; left:0; margin-top: 0; display:block}
+.full {background: url('bgr.png') right bottom no-repeat; padding-bottom:12px;}
+
+}
