@@ -64,10 +64,6 @@ blockquote {font-family:georgia, serif; font-style: italic;}
 .gambar, .vidvim iframe, .vidyou iframe, .full  { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 9px; background-size: 100%; }
 * html body article #content .full img {width:500px;}
 * :first-child+html body article #content .full img {width:500px;}
-* html body .gambar  {_background:none;}
-* html body .vidvim iframe  {_background:none;}
-* html body .vidyou iframe {_background:none;}
-* html body .full {_background:none;}
 
 /*footer*/
 footer p {border-top:1px solid #888;}
