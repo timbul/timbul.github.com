@@ -114,7 +114,7 @@ header, article, footer  {width:300px; padding-left: 10px;	padding-right: 10px; 
 .list {display: inline-block; width: auto;}
 article #archives ol li time {display: none;}
 p, .first { margin-bottom: .625em; }
-.gambar, .vidvim iframe, .vidyou iframe, .full, .full  { padding-bottom: 6px; }
+.gambar, .vidvim iframe, .vidyou iframe, .full  { padding-bottom: 6px; }
 }
 
 @media screen and (max-width: 319px) {
@@ -149,6 +149,6 @@ ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px
 	ul#social li  a.twitter:hover { background-position: left -260px; }
 	ul#social li  a.tumblr:hover { background-position: left -325px; }
 .post ul.meta {top:auto; bottom:0; left:0; margin-top: 0; display:block}
-.full {background: url('bgr.png') right bottom no-repeat; padding-bottom:12px;}
+.full {background: url('/images/bgr.png') right bottom no-repeat; padding-bottom:12px;margin-left:0;}
 
 }
