@@ -52,8 +52,8 @@ nav {top:0; right:20px; position:absolute; margin-top: 8px;}
 article h2 {margin-bottom:10px; border-bottom:1px solid #888;}
 
 /*sidebar*/
+.meta, blockquote, figcaption {width:100%; color:#ccc; text-align:center; margin-bottom:1em;}
 .meta {text-align:left;}
-blockquote, figcaption {width:100%; color:#ccc; text-align:center; margin-bottom:1em;}
 .meta {position: relative; top:0; margin-top: 0;}
 	ul.meta li {display: inline;}
 blockquote, figcaption {float:left;}
@@ -139,7 +139,7 @@ header, article, footer  {width:620px; padding-right: 100px; }
 header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, #comment {margin-left:120px;}
 nav { right:100px; }
 .meta, blockquote, figcaption {width:100px; text-align:right;}
-.meta {position: absolute; top:0; margin-top: 53px;} /* ul.meta li ? */
+.meta {position: absolute; top:0; margin-top: 53px; margin-bottom:0;}
 #social {margin: 0 20px 0 35px; width: 65px; position: absolute; top:0; margin-top: 53px; display:block;}
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
 	ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }
