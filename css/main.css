@@ -53,6 +53,7 @@ article h2 {margin-bottom:10px; border-bottom:1px solid #888;}
 
 /*sidebar*/
 .meta, blockquote, figcaption {width:100%; color:#ccc; text-align:center; margin-bottom:1em;}
+figcaption {margin-top:1em;}
 .meta {text-align:left;}
 .meta {position: relative; top:0; margin-top: 0;}
 	ul.meta li {display: inline;}
@@ -78,7 +79,6 @@ article #archives ol li time {display: inline-block;text-align: right; width:110
 /*index*/
 .post {position:relative;}
 .post h2 { border:none; margin-bottom:0;}
-/* .post ul.meta {top:auto; bottom:0; left:0; margin-top: 0;} */
 .post ul.meta {display:none;}
 
 /*pagnav*/
