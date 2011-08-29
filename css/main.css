@@ -64,8 +64,10 @@ blockquote {font-family:georgia, serif; font-style: italic;}
 .gambar, .vidvim iframe, .vidyou iframe, .full  { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 9px; background-size: 100%; }
 * html body article #content .full img {width:500px;}
 * :first-child+html body article #content .full img {width:500px;}
-* html body .gambar, .vidvim iframe, .vidyou iframe, .full {_background:none;}
-* :first-child+html body .gambar, .vidvim iframe, .vidyou iframe, .full {_background:none;}
+* html body .gambar  {_background:none;}
+* html body .vidvim iframe  {_background:none;}
+* html body .vidyou iframe {_background:none;}
+* html body .full {_background:none;}
 
 /*footer*/
 footer p {border-top:1px solid #888;}
@@ -100,6 +102,8 @@ article #archives ol li time {display: inline-block;text-align: right; width:110
 header, article, footer  {width:440px; }
 .list {display: inline-block; width: 305px;}
 article #archives ol li time {display: inline-block;text-align: right; width:100px;}
+.vidvim iframe {width:440px; height: 187px;}
+.vidyou iframe{width:440px; height: 360px;}
 	
 }
 
@@ -117,6 +121,8 @@ header, article, footer  {width:300px; padding-left: 10px;	padding-right: 10px; 
 article #archives ol li time {display: none;}
 p, .first { margin-bottom: .625em; }
 .gambar, .vidvim iframe, .vidyou iframe, .full  { padding-bottom: 6px; }
+.vidvim iframe {width:300px; height: 128px;}
+.vidyou iframe{width:300px; height: 225px;}
 }
 
 @media screen and (max-width: 319px) {
@@ -134,6 +140,8 @@ header, article, footer  {width:200px; padding-left: 10px;	padding-right: 10px; 
 article #archives ol li time {display: none;}
 p, .first { margin-bottom: .625em; }
 .gambar, .vidvim iframe, .vidyou iframe, .full { padding-bottom: 4px; }
+.vidvim iframe {width:200px; height: 85px;}
+.vidyou iframe{width:200px; height: 180px;}
 }
 
 @media screen and (min-width: 768px) {
@@ -151,6 +159,6 @@ ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px
 	ul#social li  a.twitter:hover { background-position: left -260px; }
 	ul#social li  a.tumblr:hover { background-position: left -325px; }
 .post ul.meta {top:auto; bottom:0; left:0; margin-top: 0; display:block}
-.full {background: url('/images/bgr.png') right bottom no-repeat; padding-bottom:12px;margin-left:0;}
+.full {background: url('/images/bgr.png') right bottom no-repeat; padding-bottom:12px;margin-left:0; background-size: 100%}
 
 }
