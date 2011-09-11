@@ -37,6 +37,7 @@ header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #arch
 nav { top: 0; right: 20px; position: absolute; margin-top: 8px; }
 	nav ul { margin: 0; }
 	nav li { float: left; margin-left: 20px; }
+#comicss{display:none;}
 article h2 { margin-bottom: 10px; border-bottom: 1px solid #888; }
 .right { text-align: right; }
 /*sidebar*/
@@ -124,6 +125,8 @@ p, .first { margin-bottom: .625em; }
 @media screen and (min-width: 768px) {
 header, article, footer { width: 620px; padding-right: 100px; }
 header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav { margin-left: 120px; }
+#comicss{display: list-item;}
+#about{display:none;}
 #comment { margin-left: 30px; }
 nav { right: 100px; }
 .meta, q, figcaption { width: 100px; text-align: right; }
