@@ -57,7 +57,7 @@ q { font-family: georgia, serif; font-style: italic; }
 footer p { border-top: 1px solid #888; }
 /*arsip*/
 #archives ol li a.list { border: none; }
-#archives ol li:hover { background-color: #999; }
+#archives ol li:hover { background-color: #5d5d5d; }
 .list { display: inline-block; width: 355px; }
 article #archives ol li time { display: inline-block; text-align: right; width: 110px; }
 #social { display: none; }
