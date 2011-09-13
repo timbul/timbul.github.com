@@ -26,8 +26,8 @@ nav { font-size: 1.875em; }
 img { max-width: 100%; }
 p { margin-bottom: 1em; }
 a:link, a:visited { color: #eee; border-bottom: 1px solid #888; text-decoration: none; }
-a:hover { color: #fff; background-color: #888; }
-a:focus { outline: 0; background-color: #777; color: #ddd; }
+a:hover { color: #fff; background-color: #555; border-bottom-color: #555; }
+a:focus { outline: 0; background-color: #505050; color: #ddd; border-bottom-color: #505050; }
 .post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #eee; border: none; }
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
