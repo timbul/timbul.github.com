@@ -160,4 +160,5 @@ footer {
 		padding-top: 15px;
 		font: 78%/1.6em "Trebuchet MS",Trebuchet,Verdana,Sans-serif;
 		text-transform: uppercase;
-		letter-spacing: .1em; }
+		letter-spacing: .1em;
+		text-align:left; }
