@@ -1,7 +1,9 @@
 /*
 Blogger Template Style
-Name:     Minima Black
-Date:     26 Feb 2004
+Name:		Minima Black
+Date:		26 Feb 2004
+Edited by :	Heru Setiawan
+URL :		http://sarim.in/
  */
 body {
 	background: #000;
@@ -129,6 +131,13 @@ p.post-footer {
 .post blockquote { margin: 1em 20px; }
  
 	.post blockquote p { margin: .75em 0; }
+	
+pre {
+	padding: 10px;
+	border: 1px dotted #999;
+	color: #999;
+	word-wrap: break-word;
+}
  
 /* Sidebar Content */
 aside ul {
