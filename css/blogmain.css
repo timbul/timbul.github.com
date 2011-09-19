@@ -83,6 +83,11 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: .2em;
 	color: #777; }
+	
+h4 {
+	font-size: 120%;
+	margin: .25em 0 0;
+}
  
 /* Posts */
 .post, #pagination {
