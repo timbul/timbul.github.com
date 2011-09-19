@@ -11,6 +11,7 @@ ol { list-style-type: square; margin: 0 0 1em 2em; padding: 0; }
 article, aside, canvas, figure, figure img, figcaption, hgroup,
 footer, header, nav, section, audio, video { display: block; }
 a img { border: 0; }
+::selection { background: #888; color: #ddd; }
 /*typo*/
 @font-face { font-family: 'PTSansRegular'; src: url('/fonts/PTS55F-webfont.eot'); src: url('/fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/PTS55F-webfont.woff') format('woff'), url('/fonts/PTS55F-webfont.ttf') format('truetype'), url('/fonts/PTS55F-webfont.svg#PTSansRegular') format('svg'); font-weight: normal; font-style: normal; }
 h1, h2, h3, h4 { font-weight: normal; }
@@ -25,23 +26,24 @@ nav { font-size: 1.875em; }
 * :first-child+html body footer p { font-size: 14px; }
 img { max-width: 100%; }
 p { margin-bottom: 1em; }
-a:link, a:visited { color: #eee; border-bottom: 1px solid #888; text-decoration: none; }
-a:hover { color: #fff; background-color: #555; border-bottom-color: #555; }
-a:focus { outline: 0; background-color: #505050; color: #ddd; border-bottom-color: #505050; }
-.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #eee; border: none; }
+a:link, a:visited { color: #ddd; border-bottom: 1px solid #555; text-decoration: none; }
+.meta a { color: #777; }
+a:hover { color: #ddd; background-color: #2a2a2a; border-bottom-color: #2a2a2a; }
+a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-color: #252525; }
+.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #ddd; border: none; }
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
-body { background-color: #414141; color: #eee; font: 1em/1.4 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; }
+body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; }
 header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 20px auto; position: relative; }
 header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, #comment { margin-left: 0px; }
 nav { top: 0; right: 20px; position: absolute; margin-top: 8px; }
 	nav ul { margin: 0; }
 	nav li { float: left; margin-left: 20px; }
 #comicss{display:none;}
-article h2 { margin-bottom: 10px; border-bottom: 1px solid #888; }
+article h2 { margin-bottom: 10px; border-bottom: 2px solid #555; color:#ddd; }
 .right { text-align: right; }
 /*sidebar*/
-.meta, q, figcaption { width: 100%; color: #ccc; text-align: center; margin-bottom: 1em; }
+.meta, q, figcaption { width: 100%; color: #777; text-align: center; margin-bottom: 1em; }
 figcaption { margin-top: 1em; }
 .meta { text-align: left; }
 .meta { position: relative; top: 0; margin-top: 0; }
@@ -54,10 +56,10 @@ q { font-family: georgia, serif; font-style: italic; }
 * html body article #content .full img { width: 500px; }
 * :first-child+html body article #content .full img { width: 500px; }
 /*footer*/
-footer p { border-top: 1px solid #888; }
+footer p { border-top: 2px solid #555; }
 /*arsip*/
 #archives ol li a.list { border: none; }
-#archives ol li:hover { background-color: #5d5d5d; }
+#archives ol li:hover { background-color: #333; }
 .list { display: inline-block; width: 355px; }
 article #archives ol li time { display: inline-block; text-align: right; width: 110px; }
 #social { display: none; }
