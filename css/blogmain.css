@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figure, figcaption, hgroup, 
 menu, footer, header, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; }
 ul { list-style: none; margin: 0; padding: 0; }
-ol { list-style-type: square; margin: 0 0 1em 2em; padding: 0; }
+ol { margin: 0 0 1em 2em; padding: 0; }
 article, aside, canvas, figure, figure img, figcaption, hgroup,
 footer, header, nav, section, audio, video { display: block; }
 a img { border: 0; }
