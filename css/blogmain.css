@@ -198,7 +198,7 @@ footer {
 		text-align:left; }
 
 /* Responsive */
-@media screen and (min-width: 480px) and (max-width: 538px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
 header, #content, footer { width: 410px; }
 aside {float:left;}
 }
