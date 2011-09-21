@@ -26,11 +26,11 @@ nav { font-size: 1.875em; }
 * :first-child+html body footer p { font-size: 14px; }
 img { max-width: 100%; }
 p { margin-bottom: 1em; }
-a:link, a:visited { color: #ddd; border-bottom: 1px solid #555; text-decoration: none; }
+a:link, a:visited { color: #CCC; border-bottom: 1px solid #555; text-decoration: none; }
 .meta a { color: #777; }
 a:hover { color: #ddd; background-color: #2a2a2a; border-bottom-color: #2a2a2a; }
 a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-color: #252525; }
-.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { color: #ddd; border: none; }
+.post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { border: none; }
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
 body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; }
@@ -40,7 +40,7 @@ nav { top: 0; right: 20px; position: absolute; margin-top: 8px; }
 	nav ul { margin: 0; }
 	nav li { float: left; margin-left: 20px; }
 #comicss{display:none;}
-article h2 { margin-bottom: 10px; border-bottom: 2px solid #555; color:#ddd; }
+article h2 { margin-bottom: 10px; border-bottom: 2px solid #555; color:#CCC; }
 .right { text-align: right; }
 /*sidebar*/
 .meta, q, figcaption { width: 100%; color: #777; text-align: center; margin-bottom: 1em; }
@@ -139,7 +139,7 @@ header h1, article h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #arch
 #about{display:none;}
 #comment { margin-left: 30px; }
 nav { right: 100px; }
-.thumbnail { display: block; width: 56px; height: 56px; border: 3px solid #EEE; position: absolute; bottom: 6px; left: 38px; overflow: hidden;  border-radius:2px; }
+.thumbnail { display: block; width: 56px; height: 56px; border: 3px solid #DDD; position: absolute; bottom: 6px; left: 38px; overflow: hidden;  border-radius:2px; box-shadow: 2px 2px 0 0 #000; }
 .thumbnail img { margin: -5px 0 0 -10px; max-width:150px;}
 .meta, q, figcaption { width: 100px; text-align: right; }
 .meta { position: absolute; top: 0; margin-top: 53px; margin-bottom: 0; }
