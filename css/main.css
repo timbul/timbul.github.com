@@ -28,8 +28,8 @@ img { max-width: 100%; }
 p { margin-bottom: 1em; }
 a:link, a:visited { color: #CCC; border-bottom: 1px solid #555; text-decoration: none; }
 .meta a { color: #777; }
-a:hover { color: #ddd; background-color: #2a2a2a; border-bottom-color: #2a2a2a; }
-a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-color: #252525; }
+a:hover { color: #ddd; background-color: #2a2a2a; border-bottom-color: #2a2a2b; }
+a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-color: #252524; }
 .post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { border: none; }
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
