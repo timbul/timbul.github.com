@@ -1,11 +1,10 @@
----
-layout: default
----
-
-<h2>{{ page.title }}</h2>
-<section id="content">
-{{ content }}
-{% include meta.html %}
-</section>
-{% include comment.html %}
-{% include paginationpost.html %}
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header_post.html %}
+{% include article_post.html %}
+{% include footer.html %}
+{% include ga.html %}
+</body>
+</html>
