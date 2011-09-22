@@ -145,7 +145,7 @@ nav { right: 100px; }
 .thumbnail img { margin: -5px 0 0 -10px; max-width:150px; }
 .meta, q, figcaption { width: 100px; text-align: right; }
 .meta { position: absolute; top: 0; margin-top: 53px; margin-bottom: 0; }
-#social { margin: 0 20px 0 35px; width: 65px; position: absolute; top: 0; margin-top: 53px; display: block; }
+#social { position: absolute; top: 53px; display: block; left: 55px; }
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
 	ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }
 	ul#social li  a.twitter { background: url("/images/socialicon.png") no-repeat left -68px; }
