@@ -11,7 +11,7 @@ title: Video
 <p>{{ post.excerpt }}</p>
 <ul class="meta">
 <li>{{ post.date | date_to_string }}</li>{% for tag in post.tags %}
-<li><a rel="tag" href="/archives/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+<li><a rel="tag" href="/tags/{{ tag }}">{{ tag }}</a></li>{% endfor %}
 </ul>
 <figure class="thumbnail">
 <img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
