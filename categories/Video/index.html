@@ -1,0 +1,20 @@
+---
+layout: default
+title: Video
+---
+
+<h2 id="page-title">Categories: Video</h2>
+<section id="content">{% for post in site.categories.Video %}
+<section class="post" id="postid-{{post.id}}">
+<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+<p>{{ post.excerpt }}</p>
+<ul class="meta">
+<li>{{ post.date | date_to_string }}</li>
+<li><a rel="tag" href="/categories/{{ post.category | replace:' ', '-' | downcase  }}">{{ post.category }}</a></li>
+</ul>
+<figure class="thumbnail">
+<img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
+</figure>
+</section>{% endfor %}
+</section>
+{% include pagination.html %}
