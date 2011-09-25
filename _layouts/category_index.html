@@ -3,14 +3,14 @@ layout: default
 title: Monkey Business
 ---
 
-<h2 id="page-title">Monkey Business</h2>
-<section id="content">{% for post in paginator.posts %}
+<h2 id="page-title">{{ page.title }}</h2>
+<section id="content">{% for post in site.categories[page.category] %}
 <section class="post" id="postid-{{post.id}}">
 <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
 <p>{{ post.excerpt }}</p>
 <ul class="meta">
 <li>{{ post.date | date_to_string }}</li>
-<li><a rel="tag" href="/categories/{{ post.category | replace:' ', '-' | downcase  }}">{{ post.category }}</a></li>
+<li><a rel="tag" href="/categories/{{ page.category | replace:' ', '-' | downcase  }}">{{ page.category }}</a></li>
 </ul>
 <figure class="thumbnail">
 <img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />

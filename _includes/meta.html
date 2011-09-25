@@ -1,4 +1,4 @@
 <ul class="meta">
-<li><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time></li>{% for tag in page.tags %}
-<li><a rel="tag" href="/tags/{{ tag }}">{{ tag }}</a></li>{% endfor %}
+<li><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time></li>
+<li><a href="/categories/{{ page.category | replace:' ', '-' | downcase  }}">{{ page.category }}</a></li>
 </ul>
