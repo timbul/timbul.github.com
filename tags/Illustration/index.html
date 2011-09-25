@@ -1,0 +1,20 @@
+---
+layout: default
+title: Illustration
+---
+
+<h2 id="page-title">Tag: Illustration</h2>
+<section id="content">
+{% for post in site.tags.Illustration %}
+<section class="post" id="postid-{{post.id}}">
+<h2><a href="{{post.url}}">{{ post.title }}</a></h2>
+<p>{{ post.excerpt }}</p>
+<ul class="meta">
+<li>{{ post.date | date_to_string }}</li>{% for tag in post.tags %}
+<li><a rel="tag" href="/archives/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+</ul>
+<figure class="thumbnail">
+<img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
+</figure>
+</section>{% endfor %}
+</section>
