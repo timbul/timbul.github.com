@@ -1,6 +1,6 @@
 name: Sarimin
 markdown: rdiscount
 pygments: true
-permalink: pretty
+permalink: /:year/:month/:day/:title
 paginate: 4
 
