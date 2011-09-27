@@ -38,8 +38,7 @@ body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Ar
 header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 20px auto; position: relative; }
 header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta { margin-left: 0px; }
 #menu { top: 0; right: 20px; position: absolute; margin-top: 8px; }
-	#menu ul { margin: 0; }
-	#menu li { float: left; margin-left: 20px; }
+	#menu a { margin-left: 20px; }
 #comicss{display:none;}
 article #page-title { margin-bottom: 10px; border-bottom: 2px solid #555; color:#CCC; }
 .right { text-align: right; }
@@ -125,7 +124,7 @@ h3 { font-size: 1.125em; }
 h4 { font-size: 1.125em; }
 #menu { font-size: 1.125em; }
 #menu { top: 0; right: 10px; margin-top: 4px; }
-	#menu li { margin-left: 10px; }
+	#menu a { margin-left: 10px; }
 header, article, footer { width: 200px; padding-left: 10px; padding-right: 10px; margin: 10px auto; }
 .list { display: inline-block; width: auto; }
 article #archives ol li time { display: none; }
@@ -138,7 +137,7 @@ p, .first { margin-bottom: .625em; }
 @media screen and (min-width: 768px) {
 header, article, footer { width: 620px; padding-right: 100px; }
 header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta { margin-left: 120px; }
-#comicss{display: list-item;}
+#comicss{display: inline;}
 #about{display:none;}
 #menu { right: 100px; }
 .thumbnail { display: block; width: 60px; height: 60px; border-top: 4px solid #2C2C2C; border-left: 4px solid #2C2C2C; border-right: 2px solid #0d0d0d; border-bottom: 2px solid #0d0d0d; position: absolute; bottom: 4px; left: 36px; overflow: hidden; border-radius: 2px; }
