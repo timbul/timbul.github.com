@@ -3,8 +3,7 @@ layout: default
 title: Uncategorized
 ---
 
-<h2 id="page-title">Uncategorized</h2>
-<section id="content">{% for post in site.categories.Uncategorized %}
+<h2 id="page-title">Uncategorized</h2>{% for post in site.categories.Uncategorized %}
 <section class="post" id="postid-{{post.id}}">
 <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
 <p>{{ post.excerpt }}</p>
@@ -16,4 +15,3 @@ title: Uncategorized
 <img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
 </figure>
 </section>{% endfor %}
-</section>
