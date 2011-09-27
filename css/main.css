@@ -146,6 +146,8 @@ header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe
 .thumbnail img { margin: -5px 0 0 -10px; max-width:150px; }
 .meta, q, figcaption { width: 100px; text-align: right; }
 .meta { position: absolute; top: 56px; margin-bottom: 0; }
+ul.meta li { display: block; }
+.post ul.meta li { display: inline; }
 #social { position: absolute; top: 53px; display: block; left: 55px; }
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
 	ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }
