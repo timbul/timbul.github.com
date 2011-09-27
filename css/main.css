@@ -20,14 +20,15 @@ h1, h2, h3, h4 { font-weight: normal; }
 .post h2 { font-size: 1.5em; line-height: 1.3;}
 h3 { font-size: 1.375em; }
 h4 { font-size: 1.25em; }
-nav { font-size: 1.875em; }
-.meta, q, figcaption, footer p { font-size: .875em; }
+#menu { font-size: 1.875em; }
+.meta { font-size: smaller; }
+q, figcaption, footer p { font-size: .875em; }
 * html body footer p { font-size: 14px; }
 * :first-child+html body footer p { font-size: 14px; }
 img { max-width: 100%; }
 p { margin-bottom: 1em; }
 a:link, a:visited { color: #CCC; border-bottom: 1px solid #555; text-decoration: none; }
-.meta a { color: #777; }
+.meta a { color: #888; }
 a:hover { color: #ddd; background-color: #2a2a2a; border-bottom-color: #2a2a2b; }
 a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-color: #252524; }
 .post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { border: none; }
@@ -35,26 +36,26 @@ a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-colo
 /*style*/
 body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; }
 header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 20px auto; position: relative; }
-header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, #comment, .post ul.meta { margin-left: 0px; }
-nav { top: 0; right: 20px; position: absolute; margin-top: 8px; }
-	nav ul { margin: 0; }
-	nav li { float: left; margin-left: 20px; }
+header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta { margin-left: 0px; }
+#menu { top: 0; right: 20px; position: absolute; margin-top: 8px; }
+	#menu ul { margin: 0; }
+	#menu li { float: left; margin-left: 20px; }
 #comicss{display:none;}
 article #page-title { margin-bottom: 10px; border-bottom: 2px solid #555; color:#CCC; }
 .right { text-align: right; }
 /*sidebar*/
-.meta, q, figcaption { width: 100%; color: #777; text-align: center; margin-bottom: 1em; }
+.meta, q, figcaption { width: 100%; color: #888; text-align: center; margin-bottom: 1em; }
 figcaption { margin-top: 1em; }
 .meta { text-align: left; }
-.meta { position: relative; top: 0; margin-top: 0; }
+.meta { position: relative; top: 0; }
 ul.meta li { display: inline; }
 q, figcaption { float: left; }
 q { font-family: georgia, serif; font-style: italic; }
 /*img*/
 .first { float: left; margin-right: 1em; }
 .gambar, .vidvim iframe, .vidyou iframe, .full { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 9px; background-size: 100%; }
-* html body article #content .full img { width: 500px; }
-* :first-child+html body article #content .full img { width: 500px; }
+* html body article .full img { width: 500px; }
+* :first-child+html body article .full img { width: 500px; }
 /*footer*/
 footer p { border-top: 2px solid #555; }
 /*arsip*/
@@ -71,7 +72,7 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 width: auto;
 margin-bottom: 1em;
 position: relative;
-margin-top: 0;
+top: 0;
 text-align: left;
 }
 .thumbnail { display:none; }
@@ -80,10 +81,12 @@ text-align: left;
 .next, .prev { position: absolute; }
 .next { right: 0; }
 .prev { left: 0; }
-* html body article #pagnav { text-align: left; }
+* html body article #pagnav { text-align: center; }
+	* html body article #pagnav .prev { left: -200px; }
 	* html body article #pagnav .next { right: 20px; }
 	* html body article #pagnav .totpages { padding-left: 200px; }
-* :first-child+html body article #pagnav { text-align: left; }
+* :first-child+html body article #pagnav { text-align: center; }
+	* :first-child+html body article #pagnav .prev { left: -200px; }
 	* :first-child+html body article #pagnav .next { right: 20px; }
 	* :first-child+html body article #pagnav .totpages { padding-left: 200px; }
 	
@@ -102,8 +105,8 @@ body { font-size: .875em; }
 .post h2 { font-size: 1.25em; line-height: 1.3; }
 h3 { font-size: 1.25em; }
 h4 { font-size: 1.125em; }
-nav { font-size: 1.5em; }
-nav { top: 0; right: 10px; margin-top: 6px; }
+#menu { font-size: 1.5em; }
+#menu { top: 0; right: 10px; margin-top: 6px; }
 header, article, footer { width: 300px; padding-left: 10px; padding-right: 10px; margin: 10px auto; }
 .list { display: inline-block; width: auto; }
 article #archives ol li time { display: none; }
@@ -120,9 +123,9 @@ body { font-size: .875em; }
 .post h2 { font-size: 1.125em; line-height: 1.3; }
 h3 { font-size: 1.125em; }
 h4 { font-size: 1.125em; }
-nav { font-size: 1.125em; }
-nav { top: 0; right: 10px; margin-top: 4px; }
-	nav li { margin-left: 10px; }
+#menu { font-size: 1.125em; }
+#menu { top: 0; right: 10px; margin-top: 4px; }
+	#menu li { margin-left: 10px; }
 header, article, footer { width: 200px; padding-left: 10px; padding-right: 10px; margin: 10px auto; }
 .list { display: inline-block; width: auto; }
 article #archives ol li time { display: none; }
@@ -137,14 +140,13 @@ header, article, footer { width: 620px; padding-right: 100px; }
 header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta { margin-left: 120px; }
 #comicss{display: list-item;}
 #about{display:none;}
-#comment { margin-left: 30px; }
-nav { right: 100px; }
+#menu { right: 100px; }
 .thumbnail { display: block; width: 60px; height: 60px; border-top: 4px solid #2C2C2C; border-left: 4px solid #2C2C2C; border-right: 2px solid #0d0d0d; border-bottom: 2px solid #0d0d0d; position: absolute; bottom: 4px; left: 36px; overflow: hidden; border-radius: 2px; }
 .thumbnail:before { position: absolute; top: 0; content: ""; width: 56px; height: 56px; border-right: 4px solid #2C2C2C; border-bottom: 4px solid #2C2C2C; }
 .thumbnail:after { position: absolute; top: 0; border-top: 16px solid #fff; border-bottom: 16px solid transparent; border-right: 20px solid transparent; border-left: 20px solid #fff; content: ""; opacity: .1; }
 .thumbnail img { margin: -5px 0 0 -10px; max-width:150px; }
 .meta, q, figcaption { width: 100px; text-align: right; }
-.meta { position: absolute; top: 0; margin-top: 53px; margin-bottom: 0; }
+.meta { position: absolute; top: 56px; margin-bottom: 0; }
 #social { position: absolute; top: 53px; display: block; left: 55px; }
 ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px; }
 	ul#social li  a.github { background: url("/images/socialicon.png") no-repeat left top; }

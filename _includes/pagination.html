@@ -1,6 +1,5 @@
-<section id="pagnav">
-<span class="totpages">Page {{ paginator.page }} of {{ paginator.total_pages }}
-</span>
+<nav id="pagnav">
+Page {{ paginator.page }} of {{ paginator.total_pages }}
 {% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
 <a class="prev" href="/" title="previous page">&#8249; Prev</a>{% else %}
 <a class="prev" href="/page{{ paginator.previous_page }}" title="previous page">&#8249; Prev</a>{% endif %}
@@ -8,4 +7,4 @@
 {% if paginator.next_page %}
 <a class="next" href="/page{{ paginator.next_page }}/" title="next page">Next &#8250;</a>
 {% else %}{% endif %}
-</section>
+</nav>

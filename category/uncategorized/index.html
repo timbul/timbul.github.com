@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Monkey Business
+title: Uncategorized
 ---
 
-<h2 id="page-title">Monkey Business</h2>{% for post in paginator.posts %}
+<h2 id="page-title">Uncategorized</h2>
+<section id="content">{% for post in site.categories.Uncategorized %}
 <section class="post" id="postid-{{post.id}}">
 <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
 <p>{{ post.excerpt }}</p>
@@ -15,4 +16,4 @@ title: Monkey Business
 <img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
 </figure>
 </section>{% endfor %}
-{% include pagination.html %}
+</section>
