@@ -2,4 +2,4 @@ name: Sarimin
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title/
-paginate: 4
+paginate: 5
