@@ -10,8 +10,18 @@ title: Uncategorized
 <ul class="meta">
 <li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></li>
 <li><a rel="tag" href="/category/{{ post.category | replace:' ', '-' | downcase  }}/">{{ post.category }}</a></li>
+<li><a href="http://sarim.in{{post.url}}#disqus_thread">Comments</a></li>
 </ul>
 <figure class="thumbnail">
 <img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
 </figure>
 </section>{% endfor %}
+<script type="text/javascript">
+    var disqus_shortname = 'sarimin';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
