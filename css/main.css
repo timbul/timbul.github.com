@@ -18,7 +18,7 @@ h1, h2, h3, h4 { font-weight: normal; }
 #title { font-size: 2.25em; }
 #page-title { font-size: 1.875em; line-height: 1.3; }
 .post h2 { font-size: 1.5em; line-height: 1.3;}
-h3, #related-title { font-size: 1.375em; }
+h3, #comment-title { font-size: 1.375em; }
 h4 { font-size: 1.25em; }
 #menu { font-size: 1.875em; }
 .meta { font-size: smaller; }
@@ -26,7 +26,8 @@ q, figcaption, footer p { font-size: .875em; }
 * html body footer p { font-size: 14px; }
 * :first-child+html body footer p { font-size: 14px; }
 img { max-width: 100%; }
-p { margin-bottom: 1em; }
+p, #comment-title { margin-bottom: 1em; }
+#comment-title { border-bottom: 2px solid #555; }
 p#title { margin-bottom: 0; }
 a:link, a:visited { color: #CCC; border-bottom: 1px solid #555; text-decoration: none; }
 .meta a { color: #888; }
@@ -37,7 +38,7 @@ a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-colo
 /*style*/
 body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; }
 header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 20px auto; position: relative; }
-header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #related-title, #related { margin-left: 0px; }
+header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 0px; }
 #menu { top: 0; right: 20px; position: absolute; margin-top: 8px; }
 	#menu a { margin-left: 20px; }
 #comicss{display:none;}
@@ -83,13 +84,6 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 	* :first-child+html body article #pagnav .prev { left: -200px; }
 	* :first-child+html body article #pagnav .next { right: 20px; }
 	* :first-child+html body article #pagnav .totpages { padding-left: 200px; }
-/*related*/
-#related { width: auto; float: none; margin-bottom: 1em; }
-	#related li { float: none; width: auto; list-style-type: square; display: list-item; margin: 0; padding: 0; border: none; background-color: transparent; }
-		#related li:hover { background-color: #222; }
-		#related li .thumbnail { display: none; }
-		#related li h3 { margin-left: 0; font-size: 1em; font-size: small; }
-		#related li p { margin-bottom: .5em; font-size: smaller; }
 	
 @media screen and (min-width: 480px) and (max-width: 538px) {
 header, article, footer { width: 440px; }
@@ -104,7 +98,7 @@ body { font-size: .875em; }
 #title { font-size: 1.875em; }
 #page-title { font-size: 1.5em; line-height: 1.3; }
 .post h2 { font-size: 1.25em; line-height: 1.3; }
-h3, #related-title { font-size: 1.25em; }
+h3, #comment-title { font-size: 1.25em; }
 h4 { font-size: 1.125em; }
 #menu { font-size: 1.5em; }
 #menu { top: 0; right: 10px; margin-top: 6px; }
@@ -122,7 +116,7 @@ body { font-size: .875em; }
 #title { font-size: 1.35em; }
 #page-title { font-size: 1.125em; line-height: 1.3; }
 .post h2 { font-size: 1.125em; line-height: 1.3; }
-h3, #related-title { font-size: 1.125em; }
+h3, #comment-title { font-size: 1.125em; }
 h4 { font-size: 1.125em; }
 #menu { font-size: 1.125em; }
 #menu { top: 0; right: 10px; margin-top: 4px; }
@@ -138,7 +132,7 @@ p, .first { margin-bottom: .625em; }
 
 @media screen and (min-width: 768px) {
 header, article, footer { width: 620px; padding-right: 100px; }
-header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #related-title, #related { margin-left: 120px; }
+header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 120px; }
 #comicss{display: inline;}
 #about{display:none;}
 #menu { right: 100px; }
@@ -159,10 +153,4 @@ ul#social li  a { width: 60px; height: 55px; display: block; margin-bottom: 10px
 	ul#social li  a.twitter:hover { background-position: left -260px; }
 	ul#social li  a.tumblr:hover { background-position: left -325px; }
 .full { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 12px; margin-left: 0; background-size: 100% }
-#related-title { font-size: 1.375em; }
-#related { width: 500px; float: left; }
-	#related li { width: 220px; display: block; float: left; margin-right: 8px; padding: 10px; background-color: #1F1F1F; border: 1px solid #333; }
-		#related li .thumbnail { display: block; width: 60px; height: 60px; border-top: 4px solid #2C2C2C; border-left: 4px solid #2C2C2C; border-right: 2px solid #0D0D0D; border-bottom: 2px solid #0D0D0D; position: relative; overflow: hidden; border-radius: 2px; float: left; margin-right: 10px; bottom: 0; left: 0; }
-		#related li h3 { margin-left: 0; }
-		#related li p { font-size: smaller; margin-left: 0; margin-bottom: 0; }
 }
