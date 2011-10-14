@@ -1,0 +1,11 @@
+{% if site.related_posts.size > 0 %}
+<h2 id="related-title">Related posts :</h2>
+<ul id="related">{% for post in site.related_posts limit:2 %}
+<li><a href="{{post.url}}">
+<figure class="thumbnail">
+<img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
+</figure>
+<h3>{{ post.title }}</h3>
+<p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></p></a>
+</li>{% endfor %}
+</ul>{% endif %}
