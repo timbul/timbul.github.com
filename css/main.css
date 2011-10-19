@@ -101,10 +101,11 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 @media screen and (min-width: 320px) and (max-width: 479px) {
 #page-title, #menu { font-size: 1.5em; }
 .post h2 { font-size: 1.375em; }
-#logo { left: 10px; }
+#logo { left: auto; right: 10px; }
+header #title { margin-left: 0; }
 #menu { position:relative; right:0; }
 #menu a{ margin-left:0; margin-right:10px; }
-header, article, footer { width: 300px; padding-left: 10px; padding-right: 10px; margin: 10px auto; }
+header, article, footer { width: 300px; padding-left: 10px; padding-right: 10px; }
 .list { display: inline-block; width: auto; }
 article #archives ol li time { display: none; }
 p, .first { margin-bottom: .625em; }
@@ -116,10 +117,11 @@ p, .first { margin-bottom: .625em; }
 @media screen and (max-width: 319px) {
 #page-title, #menu { font-size: 1.5em; }
 .post h2 { font-size: 1.375em; }
-#logo { left: 10px; }
+#logo { left: auto; right: 10px; }
+header #title { margin-left: 0; }
 #menu { position:relative; right:0; }
 #menu a{ margin-left:0; margin-right:10px; }
-header, article, footer { width: 200px; padding-left: 10px; padding-right: 10px; margin: 10px auto; }
+header, article, footer { width: 200px; padding-left: 10px; padding-right: 10px; }
 .list { display: inline-block; width: auto; }
 article #archives ol li time { display: none; }
 p, .first { margin-bottom: .625em; }
