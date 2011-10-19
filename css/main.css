@@ -65,6 +65,7 @@ footer p { border-top: 2px solid #555; }
 #archives ol li:hover { background-color: #333; }
 .list { display: inline-block; width: 355px; }
 article #archives ol li time { display: inline-block; text-align: right; width: 110px; }
+#archives ol li { list-style-type: decimal; }
 #social { display: none; }
 /*index*/
 .post { position: relative; }
@@ -89,7 +90,7 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 #logo { position: absolute; left: 20px; top: -20px; max-width: 40px; }
 * html body header #logo { width: 40px; }
 * :first-child+html body header #logo { width: 40px; }
-
+/*480px - 538px*/
 @media screen and (min-width: 480px) and (max-width: 538px) {
 header, article, footer { width: 440px; }
 .list { display: inline-block; width: 305px; }
@@ -97,24 +98,26 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 .vidvim iframe { width: 440px; height: 187px; }
 .vidyou iframe { width: 440px; height: 360px; }
 }
-
+/*320px - 479px*/
 @media screen and (min-width: 320px) and (max-width: 479px) {
+header #title, article #page-title, #menu, .post h2 , #comment-title { font-weight:bold; }
 #page-title, #menu { font-size: 1.5em; }
 .post h2 { font-size: 1.375em; }
-#logo { left: auto; right: 10px; }
+#logo { left: auto; right: 10px; max-width: 60px;}
 header #title { margin-left: 0; }
 #menu { position:relative; right:0; }
 #menu a{ margin-left:0; margin-right:10px; }
 header, article, footer { width: 300px; padding-left: 10px; padding-right: 10px; }
-.list { display: inline-block; width: auto; }
+.list { display: inline; width: auto; }
 article #archives ol li time { display: none; }
 p, .first { margin-bottom: .625em; }
 .gambar, .vidvim iframe, .vidyou iframe, .full { padding-bottom: 6px; }
 .vidvim iframe { width: 300px; height: 128px; }
 .vidyou iframe { width: 300px; height: 225px; }
 }
-
+/* < 320px*/
 @media screen and (max-width: 319px) {
+header #title, article #page-title, #menu, .post h2, #comment-title { font-weight:bold; }
 #page-title, #menu { font-size: 1.5em; }
 .post h2 { font-size: 1.375em; }
 #logo { left: auto; right: 10px; }
@@ -122,14 +125,14 @@ header #title { margin-left: 0; }
 #menu { position:relative; right:0; }
 #menu a{ margin-left:0; margin-right:10px; }
 header, article, footer { width: 200px; padding-left: 10px; padding-right: 10px; }
-.list { display: inline-block; width: auto; }
+.list { display: inline; width: auto; }
 article #archives ol li time { display: none; }
 p, .first { margin-bottom: .625em; }
 .gambar, .vidvim iframe, .vidyou iframe, .full { padding-bottom: 4px; }
 .vidvim iframe { width: 200px; height: 85px; }
 .vidyou iframe { width: 200px; height: 180px; }
 }
-
+/* > 768px*/
 @media screen and (min-width: 768px) {
 header, article, footer { width: 620px; padding-right: 100px; }
 header #title, article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 120px; }
