@@ -57,6 +57,8 @@ q { font-family: georgia, serif; font-style: italic; }
 .gambar, .vidvim iframe, .vidyou iframe, .full { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 9px; background-size: 100%; }
 * html body article .full img { width: 500px; }
 * :first-child+html body article .full img { width: 500px; }
+/*audio*/
+audio { width: 100%; max-width: 300px; }
 /*footer*/
 footer p { border-top: 2px solid #555; }
 /*arsip*/
