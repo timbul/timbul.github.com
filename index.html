@@ -10,7 +10,7 @@ title: Monkey Business
 <ul class="meta">
 <li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></li>
 <li><a rel="tag" href="/category/{{ post.category | replace:' ', '-' | downcase  }}/">{{ post.category }}</a></li>
-<li><a href="http://sarim.in{{post.url}}#disqus_thread">Comments</a></li>
+<li><a href="http://jekyll.sarim.in{{post.url}}#disqus_thread">Comments</a></li>
 </ul>
 <figure class="thumbnail">
 <img src="{{ post.thumbnail }}" alt="Thumbnail {{ post.title }}" />
