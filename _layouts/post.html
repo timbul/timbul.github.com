@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<title>{{ page.title }} - {{site.name}}</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Heru Setiawan" />
+		<meta name="google-site-verification" content="H4HVexSpKGJLO9-E59JICKhXcVBrR6cgid_sHHbF50E" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css?v=1"/> 
+		<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+		<link rel="alternate" type="application/rss+xml" href="http://timbul.github.com/atom.xml"/>
+		<!-- 9nEVCbxka4GtsGPMVmVG8A_SCNE -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="/js/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<article>
+			<h1 id="page-title">{{ page.title }}</h1>
+			{{ content }}
+			<nav id="pagnav">
+				<a href="/archives" title="Archives">Archives</a>{% if page.previous.url %}
+				<a href="{{page.previous.url}}" class="next" title="{{page.previous.title}}">Next &#8250;</a>{% endif %}{% if page.next.url %}
+				<a href="{{page.next.url}}" class="prev" title="{{ page.next.title }}">&#8249; Prev</a>{% endif %}
+			</nav>
+		</article>
+		<footer>
+			<p>Copyright &copy; 2011 <a rel="author" href="http://timbul.github.com/about">Heru Setiawan</a>, Typeface PT Sans Via <a href="http://www.fontsquirrel.com/">fontsquirrel</a>, Thanks for <a href="https://github.com/mojombo/jekyll">Dr. Jekyll</a> &amp; <a href="http://pages.github.com/">Mr. Github</a></p>
+		</footer>
+		<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25256672-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+		</script>
+	</body>
+</html>

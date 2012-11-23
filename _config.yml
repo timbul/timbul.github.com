@@ -1,0 +1,4 @@
+name: Sarimin
+markdown: rdiscount
+pygments: true
+permalink: /:title/
