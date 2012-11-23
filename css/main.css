@@ -21,9 +21,9 @@ h3, #comment-title { font-size: 1.375em; }
 h4 { font-size: 1.25em; }
 #menu { font-size: 1.875em; }
 .meta { font-size: smaller; }
-q, figcaption, footer p { font-size: .875em; }
-* html body footer p { font-size: 14px; }
-* :first-child+html body footer p { font-size: 14px; }
+q, figcaption { font-size: .875em; }
+* html body footer p { font-size: 12px; }
+* :first-child+html body footer p { font-size: 12px; }
 img { max-width: 100%; }
 p, #comment-title { margin-bottom: 1em; }
 #comment-title { border-bottom: 2px solid #555; }
@@ -36,13 +36,13 @@ a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-colo
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
 body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; }
-header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 20px auto; position: relative; }
+header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 40px auto; position: relative; }
 article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 0px; }
 header #title { margin-left:50px; }
 #menu { top: 0; right: 20px; position: absolute; margin-top: 8px; }
 	#menu a { margin-left: 20px; }
 #comicss{display:none;}
-article #page-title { margin-bottom: 10px; border-bottom: 2px solid #555; color:#CCC; }
+article #page-title { margin-bottom: 10px; color:#CCC; }
 .right { text-align: right; }
 /*sidebar*/
 .meta, q, figcaption { width: 100%; color: #888; text-align: center; margin-bottom: 1em; }
@@ -60,7 +60,7 @@ q { font-family: georgia, serif; font-style: italic; }
 /*audio*/
 audio { width: 100%; max-width: 300px; }
 /*footer*/
-footer p { border-top: 2px solid #555; }
+footer p { color: #888; font-size: .75em }
 /*arsip*/
 #archives ol li a.list { border: none; }
 #archives ol li:hover { background-color: #333; }
