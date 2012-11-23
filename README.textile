@@ -1,8 +1,0 @@
-h1. My Personal Blog
-
-Direktori berikut dan isinya adalah Hak Cipta Saya. Anda tidak boleh menggunakannya tanpa izin:
-
-* _posts/
-* images/
-
-Semua direktori dan file lainnya bisa anda gunakan sepuasnya (CSS dan HTML). Sukur-sukur kalau dikasih link ke https://github.com/timbul/timbul.github.com tapi tidak wajib :0
