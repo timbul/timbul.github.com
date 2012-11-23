@@ -36,7 +36,8 @@ a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-colo
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
 body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; border-top:5px solid #2a2a2a;}
-header, article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 40px auto; position: relative; }
+article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 40px auto; position: relative; }
+article {margin-top: 60px; }
 article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 0px; }
 article #page-title { margin-bottom: 10px; color:#CCC; }
 .right { text-align: right; }
@@ -79,10 +80,10 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 /*logo*/
 a#logo { border-bottom: none; }
 a#logo:hover { opacity: .8; background-color: transparent; border-bottom: none; }
-#logo {position: absolute;right: 20px;top: -48px; height:34px;}
+#logo {position: absolute;right: 20px;top: -68px; height:34px;}
 /*480px - 538px*/
 @media screen and (min-width: 480px) and (max-width: 538px) {
-header, article, footer { width: 440px; }
+article, footer { width: 440px; }
 .list { display: inline-block; width: 305px; }
 article #archives ol li time { display: inline-block; text-align: right; width: 100px; }
 .vidvim iframe { width: 440px; height: 187px; }
@@ -90,12 +91,11 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 }
 /*320px - 479px*/
 @media screen and (min-width: 320px) and (max-width: 479px) {
-header #title, article #page-title, #menu, .post h2 , #comment-title { font-weight:bold; }
+article #page-title, #menu, .post h2 , #comment-title { font-weight:bold; }
 #page-title, #menu { font-size: 1.5em; }
 .post h2 { font-size: 1.375em; }
 #logo {left: 10px;right: auto;}
-header #title { margin-left: 0; }
-header, article, footer { width: 300px; padding-left: 10px; padding-right: 10px; }
+article, footer { width: 300px; padding-left: 10px; padding-right: 10px; }
 .list { display: inline; width: auto; }
 article #archives ol li time { display: none; }
 p, .first { margin-bottom: .625em; }
@@ -109,7 +109,7 @@ article #page-title, #menu, .post h2, #comment-title { font-weight:bold; }
 #page-title, #menu { font-size: 1.5em; }
 .post h2 { font-size: 1.375em; }
 #logo {right: auto;left: 10px;}
-header, article, footer { width: 200px; padding-left: 10px; padding-right: 10px; }
+article, footer { width: 200px; padding-left: 10px; padding-right: 10px; }
 .list { display: inline; width: auto; }
 article #archives ol li time { display: none; }
 p, .first { margin-bottom: .625em; }
@@ -119,12 +119,11 @@ p, .first { margin-bottom: .625em; }
 }
 /* > 768px*/
 @media screen and (min-width: 768px) {
-header, article, footer { width: 620px; padding-right: 100px; }
+article, footer { width: 620px; padding-right: 100px; }
 article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 120px; }
 .meta, q, figcaption { width: 100px; text-align: right; }
 .meta { position: absolute; top: 56px; margin-bottom: 0; }
 ul.meta li { display: block; margin-right:0; }
 .post ul.meta li { display: inline; margin-right:5px; }
 .full { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 12px; margin-left: 0; background-size: 100% }
-#logo { right: 100px;top: -48px;}
 }
