@@ -126,4 +126,5 @@ article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou ifram
 ul.meta li { display: block; margin-right:0; }
 .post ul.meta li { display: inline; margin-right:5px; }
 .full { background: url('/images/bgr.png') right bottom no-repeat; padding-bottom: 12px; margin-left: 0; background-size: 100% }
+#logo { right: 100px;}
 }
