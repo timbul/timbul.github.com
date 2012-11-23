@@ -16,11 +16,11 @@
 	</head>
 	<body>
 		<article>
-			<a id="logo" href="/" title="Beranda"><img src="/images/logo.png" alt="Beranda"></a>
+			<a id="logo" href="/" title="Home"><img src="/images/logo.png" alt="sarimin logo"></a>
 			<h1 id="page-title">{{ page.title }}</h1>
 			{{ content }}
 			<nav id="pagnav">
-				<a href="/" title="Arsip">Arsip</a>{% if page.previous.url %}
+				<a href="/" title="Archives">Archives</a>{% if page.previous.url %}
 				<a href="{{page.previous.url}}" class="next" title="{{page.previous.title}}">Next &#8250;</a>{% endif %}{% if page.next.url %}
 				<a href="{{page.next.url}}" class="prev" title="{{ page.next.title }}">&#8249; Prev</a>{% endif %}
 			</nav>
