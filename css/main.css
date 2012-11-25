@@ -38,7 +38,7 @@ a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-colo
 body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; border-top:5px solid #2a2a2a;}
 article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 40px auto; position: relative; }
 article {margin-top: 60px; }
-article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 0px; }
+article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, .daftar { margin-left: 0px; }
 article #page-title { margin-bottom: 10px; color:#CCC; }
 .right { text-align: right; }
 /*sidebar*/
@@ -120,7 +120,7 @@ p, .first { margin-bottom: .625em; }
 /* > 768px*/
 @media screen and (min-width: 768px) {
 article, footer { width: 620px; padding-right: 100px; }
-article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, #comment-title { margin-left: 120px; }
+article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, .daftar { margin-left: 120px; }
 .meta, q, figcaption { width: 100px; text-align: right; }
 .meta { position: absolute; top: 56px; margin-bottom: 0; }
 ul.meta li { display: block; margin-right:0; }
