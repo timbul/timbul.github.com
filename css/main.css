@@ -35,9 +35,9 @@ a:focus { outline: 0; background-color: #252525; color: #ccc; border-bottom-colo
 .post h2 a:link, .post h2 a:visited, #social a:link, #social a:visited, .dsq-avatar a:link, .dsq-avatar a:visited { border: none; }
 .dsq-avatar a:hover { background-color: transparent; }
 /*style*/
-body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; border-top:5px solid #2a2a2a;}
+body { background-color: #1a1a1a; color: #aaa; font: 1em/1.5 'PTSansRegular', Arial, sans-serif; padding: 0; position: relative; border-top:5px solid #960014;}
 article, footer { width: 500px; padding-left: 20px; padding-right: 20px; margin: 40px auto; position: relative; }
-article {margin-top: 60px; }
+article {margin-top: 70px; }
 article #page-title, .post h2, p, .first, .gambar, .vidvim iframe, .vidyou iframe, #archives, #pagnav, .post ul.meta, h3, .daftar { margin-left: 0px; }
 article #page-title { margin-bottom: 10px; color:#CCC; }
 .right { text-align: right; }
@@ -79,8 +79,8 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 	* :first-child+html body article #pagnav .totpages { padding-left: 200px; }
 /*logo*/
 a#logo { border-bottom: none; }
-a#logo:hover { opacity: .8; background-color: transparent; border-bottom: none; }
-#logo {position: absolute;right: 20px;top: -68px; height:34px;}
+a#logo:hover { top: -74px; background-color: transparent; border-bottom: none; }
+#logo {position: absolute;right: 20px;top: -84px; height:34px; -webkit-transition-duration: .3s;}
 /*480px - 538px*/
 @media screen and (min-width: 480px) and (max-width: 538px) {
 article, footer { width: 440px; }
