@@ -80,7 +80,7 @@ article #archives ol li time { display: inline-block; text-align: right; width: 
 /*logo*/
 a#logo { border-bottom: none; }
 a#logo:hover { top: -74px; background-color: transparent; border-bottom: none; }
-#logo {position: absolute;right: 20px;top: -84px; height:34px; -webkit-transition-duration: .3s;}
+#logo {position: absolute;right: 20px;top: -84px; height:34px; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s; transition-duration: .3s;}
 /*480px - 538px*/
 @media screen and (min-width: 480px) and (max-width: 538px) {
 article, footer { width: 440px; }
