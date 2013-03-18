@@ -82,7 +82,7 @@ a#logo { border-bottom: none; }
 a#logo:hover { top: -74px; background-color: transparent; border-bottom: none; }
 #logo {position: absolute;right: 20px;top: -84px; height:34px; -webkit-transition-duration: .3s; -moz-transition-duration: .3s; -o-transition-duration: .3s; transition-duration: .3s;}
 /*bohlam*/
-#overlay{display:none;position:fixed;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,0.8)}
+#overlay{display:none;position:fixed;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,0.9)}
  .bohlam{width:100%;resize:both;overflow:auto;margin-top:-36px}
 .bohlam img{margin-left:-95px;left:50%;position:absolute;
 animation: geser 1s linear;
