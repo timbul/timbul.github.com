@@ -24,7 +24,7 @@ li{line-height:18px; margin-bottom:12px}
 li p{line-height:21px}
 img{max-width:100%; height:auto}
 header{z-index:99999; position:fixed; background-color:#fff}
-#judul{padding:15px 0; margin-left:15%}
+#judul{padding:15px 0; margin-left:130px}
 #judul a, #judul a:visited{text-indent:-100000px; background-repeat:no-repeat; background-image:url('http://4.bp.blogspot.com/-R0mNnKpKxeY/UV67Lh7SHJI/AAAAAAAAAVg/yZ9eNE55eCg/h105/sariminlogo.png'); background-position:0 0; width:170px; height:50px; display:block; border-bottom:none; margin:0}
 #judul a:hover, #judul a:focus{opacity:1}
 article{padding:130px 0 50px; background-color:#008f6b; color:#fff}
@@ -49,7 +49,7 @@ footer{padding:30px 0 0}
 .prev{left:0}
 .gambar, .vidyou, .vidvim{margin-bottom:24px}
 figcaption{padding:0 2px; position:relative; font-size:12px; color:#ddd; margin:-48px auto 0; max-width:420px; background-color:#00553f; background-color:rgba(0,0,0,0.4)}
-.first{margin:0 16px 10px 15%; float:left}
+.first{margin:0 16px 10px 130px; float:left}
 .right{text-align:right}
 q{position:relative; text-align:center; font-size:130%; font-style:italic; display:block; margin-bottom:24px; padding:10px 20px; color:#ddd; background-color:#00553f; background-color:rgba(0,0,0,.4)}
 q:before{top:0; left:0px; position:absolute; content:"; "; margin:0 5px; font-family:entyporegular; font-size:26px}
@@ -62,18 +62,18 @@ figcaption:before{content:"D"; font-family:entyporegular; font-size:26px; margin
 @font-face{ font-family:'EntypoRegular';  src:url('/fonts/Entypo-webfont.eot');  src:url('/fonts/Entypo-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/Entypo-webfont.woff') format('woff'), url('/fonts/Entypo-webfont.ttf') format('truetype'), url('/fonts/Entypo-webfont.svg#EntypoRegular') format('svg');  font-weight:normal;  font-style:normal}
 
 header, article, footer{width:100%}
-.wrap{width: 65%; max-width:width:880px; margin-left:auto; margin-right:auto}
-p, ul, ol, #page-title, #pagnav, q{margin-left:15%; margin-right:15%}
+.wrap{width:880px; margin-left:auto; margin-right:auto}
+p, ul, ol, #page-title, #pagnav, q{margin-left:130px; margin-right:130px}
 
  @media only screen and (min-width:768px) and (max-width:959px){
- .wrap{width: 85%; max-width:710px}
-p, ul, ol, #page-title, #pagnav, q{margin-left:7%; margin-right:7%;}
-.first, #judul{margin-left:7%;}
+ .wrap{width:710px}
+p, ul, ol, #page-title, #pagnav, q{margin-left:50px; margin-right:50px}
+.first, #judul{margin-left:50px}
 }
  @media only screen and (min-width:480px) and (max-width:767px){
- .wrap{width:80%; max-width:420px; margin-left:auto; margin-right:auto}
-p, ul, ol, #page-title, #pagnav, q{margin-left:7%; margin-right:7%;}
-.first, #judul{margin-left:7%}
+ .wrap{width:420px; margin-left:auto; margin-right:auto}
+p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
+.first, #judul{margin-left:0}
 #page-title{font-size:28px}
 #archives ul li time{display:none}
 article{padding:50px 0}
@@ -83,9 +83,9 @@ header{position:relative}
  }
  @media only screen and (max-width:479px){
  body{font-size:14px}
-.wrap{width:90%; max-width:210px; margin-left:auto; margin-right:auto}
-p, ul, ol, #page-title, #pagnav, q{margin-left:7%; margin-right:7%;}
-.first, #judul{margin-left:7%}
+.wrap{width:210px; margin-left:auto; margin-right:auto}
+p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
+.first, #judul{margin-left:0}
 #page-title{font-size:28px}
 #archives ul li time{display:none}
 article{padding:50px 0}
@@ -98,7 +98,7 @@ header{position:relative}
  }
  @media only screen and (min-width:320px) and (max-width:479px){
  body{font-size:14px}
-.wrap{width: 90%;max-width:300px; margin-left:auto; margin-right:auto}
+.wrap{width:300px; margin-left:auto; margin-right:auto}
 
 .vidyou{padding-top:25px}
 }
