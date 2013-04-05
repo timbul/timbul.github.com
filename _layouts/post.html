@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="author" content="Heru Setiawan" />
 		<meta name="google-site-verification" content="H4HVexSpKGJLO9-E59JICKhXcVBrR6cgid_sHHbF50E" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" type="text/css" href="/css/main.css?v=1"/> 
 		<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 		<link rel="alternate" type="application/rss+xml" href="http://timbul.github.com/atom.xml"/>
@@ -23,6 +23,7 @@
 		<article>
 			<section class="wrap">
 			<h1 id="page-title">{{ page.title }}</h1>
+			<time datetime="{{ page.date | date: '%d-%m-%Y' }}" class="tanggal">{{ page.date | date_to_string }}</time>
 			{{ content }}
 			<nav id="pagnav">
 				<a href="/" title="Archives">Archives</a>{% if page.previous.url %}
