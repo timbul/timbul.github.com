@@ -60,7 +60,7 @@ figcaption:before{content:"D"; font-family:entyporegular; font-size:26px; margin
 audio{width:100%;}
 
 @font-face{ font-family:'OpenSansLight';  src:url('/fonts/OpenSans-Light-webfont.eot');  src:url('/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Light-webfont.woff') format('woff'), url('/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');  font-weight:normal;  font-style:normal}
-@font-face{ font-family:'OpenSansRegular';  src:url('/fonts/OpenSans-Ligular-webfont.eot');  src:url('/fonts/OpenSans-Ligular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Ligular-webfont.woff') format('woff'), url('/fonts/OpenSans-Ligular-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Ligular-webfont.svg#OpenSansRegular') format('svg');  font-weight:normal;  font-style:normal}
+@font-face{ font-family:'OpenSansRegular';  src:url('/fonts/OpenSans-Regular-webfont.eot');  src:url('/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');  font-weight:normal;  font-style:normal}
 @font-face{ font-family:'EntypoRegular';  src:url('/fonts/Entypo-webfont.eot');  src:url('/fonts/Entypo-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/Entypo-webfont.woff') format('woff'), url('/fonts/Entypo-webfont.ttf') format('truetype'), url('/fonts/Entypo-webfont.svg#EntypoRegular') format('svg');  font-weight:normal;  font-style:normal}
 
 header, article, footer{width:100%}
