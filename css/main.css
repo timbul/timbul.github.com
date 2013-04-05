@@ -20,7 +20,7 @@ footer a, footer  a:visited{color:#444; text-decoration:none; outline:0; border-
 ul, ol{margin-bottom:20px}
 ul{list-style:none outside}
 ol{list-style:decimal}
-li{line-height:18px; margin-bottom:12px}
+li{line-height:inherit; margin-bottom:12px}
 li p{line-height:21px}
 img{max-width:100%; height:auto}
 header{z-index:99999; position:fixed; background-color:#fff}
