@@ -24,7 +24,7 @@
 			<section class="wrap">
 			<h1 id="page-title">{{ page.title }}</h1>
 			{{ content }}
-			<time datetime="{{ page.date | date: '%d-%m-%Y' }}" class="tanggal">{{ page.date | date_to_string }}</time>
+			<time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>
 			<nav id="pagnav">
 				<a href="/" title="Archives">Archives</a>{% if page.previous.url %}
 				<a href="{{page.previous.url}}" class="next" title="{{page.previous.title}}">Next</a>{% endif %}{% if page.next.url %}
