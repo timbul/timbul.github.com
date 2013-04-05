@@ -66,9 +66,9 @@ header, article, footer{width:100%}
 p, ul, ol, #page-title, #pagnav, q{margin-left:130px; margin-right:130px}
 
  @media only screen and (min-width:768px) and (max-width:959px){
- .wrap{width:710px}
-p, ul, ol, #page-title, #pagnav, q{margin-left:50px; margin-right:50px}
-.first, #judul{margin-left:50px}
+ .wrap{width:700px}
+p, ul, ol, #page-title, #pagnav, q{margin-left:45px; margin-right:45px}
+.first, #judul{margin-left:45px}
 }
  @media only screen and (min-width:480px) and (max-width:767px){
  .wrap{width:420px; margin-left:auto; margin-right:auto}
