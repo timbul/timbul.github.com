@@ -65,40 +65,25 @@ header, article, footer{width:100%}
 .wrap{width:880px; margin-left:auto; margin-right:auto}
 p, ul, ol, #page-title, #pagnav, q{margin-left:130px; margin-right:130px}
 
- @media only screen and (min-width:768px) and (max-width:959px){
- .wrap{width:710px}
-p, ul, ol, #page-title, #pagnav, q{margin-left:50px; margin-right:50px}
-.first, #judul{margin-left:50px}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+ .wrap{width:700px}
+p, ul, ol, #page-title, #pagnav, q{margin-left:40px; margin-right:40px}
+.first, #judul{margin-left:40px}
 }
- @media only screen and (min-width:480px) and (max-width:767px){
- .wrap{width:420px; margin-left:auto; margin-right:auto}
-p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
-.first, #judul{margin-left:0}
-#page-title{font-size:28px}
-#archives ul li time{display:none}
-article{padding:50px 0}
-header{position:relative}
-.list{margin-right:2px; float:none}
-#archives ul li{margin-bottom:0}
- }
- @media only screen and (max-width:479px){
- body{font-size:14px}
-.wrap{width:210px; margin-left:auto; margin-right:auto}
-p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
-.first, #judul{margin-left:0}
-#page-title{font-size:28px}
-#archives ul li time{display:none}
-article{padding:50px 0}
-header{position:relative}
-.list{margin-right:0; float:none; padding:10px}
-#archives ul li{margin-bottom:0}
-.next, .prev{top:-4px}
-#pagnav a, #pagnav a:visited{padding:5px 10px}
-.vidyou{padding-top:0}
- }
- @media only screen and (min-width:320px) and (max-width:479px){
- body{font-size:14px}
-.wrap{width:300px; margin-left:auto; margin-right:auto}
 
+@media only screen and (max-width: 767px) {
+.wrap{width:300px; margin-left:auto; margin-right:auto}
+p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
 .vidyou{padding-top:25px}
+.first, #judul{margin-left:0}
+#page-title{font-size:28px}
+#archives ul li time{display:none}
+article{padding:50px 0}
+header{position:relative}
+.list{margin-right:0; float:none}
+#archives ul li{margin-bottom:0}
 }
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+ .wrap{width:420px; margin-left:auto; margin-right:auto}
+ }
