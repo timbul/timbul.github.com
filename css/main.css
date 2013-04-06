@@ -35,7 +35,7 @@ article{padding:130px 0 50px; background-color:#008f6b; color:#fff}
 .gambar, figcaption{text-align:center}
 .gambar img{max-width:100%}
 #archives ul li{clear:both; line-height:18px; margin-bottom:30px}
-.list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px}
+.list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
 #archives ul li time{color:#ddd; float:left; margin-bottom:2px}
 .list, #archives ul li time{padding:12px 20px; background-color:#00553f; background-color:rgba(0,0,0,0.4)}
 .list:hover, #archives ul li time:hover{opacity:.9}
@@ -48,20 +48,26 @@ footer{padding:30px 0 0}
 .next{right:0}
 .prev{left:0}
 .gambar, .vidyou, .vidvim{margin-bottom:24px}
-figcaption{padding:0 2px; position:relative; font-size:12px; color:#ddd; margin:-48px auto 0; max-width:420px; background-color:#00553f; background-color:rgba(0,0,0,0.4)}
+figcaption{padding:10px 2px; position:relative; font-size:12px; color:#ddd; margin:-49px auto 0; max-width:420px; background-color:#00553f; background-color:rgba(0,0,0,0.4)}
 .first{margin:0 16px 10px 130px; float:left}
 .tanggal{margin-left:130px;}
 .right{text-align:right}
 q{position:relative; text-align:center; font-size:130%; font-style:italic; display:block; margin-bottom:24px; padding:10px 20px; color:#ddd; background-color:#00553f; background-color:rgba(0,0,0,.4)}
-q:before{top:0; left:0px; position:absolute; content:"; "; margin:0 5px; font-family:entyporegular; font-size:26px}
-q:after{bottom:0; right:0px; position:absolute; content:"; "; margin:0 5px; font-family:entyporegular; font-size:26px}
-time:before{margin-right:5px; font-family:entyporegular; content:"N"; font-size:26px}
-figcaption:before{content:"D"; font-family:entyporegular; font-size:26px; margin-right:10px}
+q:before{top:0; left:0px; position:absolute;  margin:0 5px;   speak: none;}
+q:after{bottom:0; right:0px; position:absolute;  margin:0 5px;   speak: none; }
+time:before{margin-right:5px;  speak: none; }
+figcaption:before{   margin-right:10px; speak: none;}
+.pulang:before{margin-right:10px;  speak: none; color:#ccc;}
+.prev:before{   margin-right:10px; speak: none; color:#ccc;}
+.next:after{   margin-left:10px; speak: none; color:#ccc;}
+.list:after {position: absolute;right: 10px;speak: none; display:none; color:#ccc;}
+
+q:before, q:after, time:before, figcaption:before, .pulang:before, .prev:before, .next:after, .list:after{content: attr(data-icon); font-family:icomoon;font-size:14px;}
 audio{width:100%;}
 
 @font-face{ font-family:'OpenSansLight';  src:url('/fonts/OpenSans-Light-webfont.eot');  src:url('/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Light-webfont.woff') format('woff'), url('/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');  font-weight:normal;  font-style:normal}
 @font-face{ font-family:'OpenSansRegular';  src:url('/fonts/OpenSans-Regular-webfont.eot');  src:url('/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');  font-weight:normal;  font-style:normal}
-@font-face{ font-family:'EntypoRegular';  src:url('/fonts/Entypo-webfont.eot');  src:url('/fonts/Entypo-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/Entypo-webfont.woff') format('woff'), url('/fonts/Entypo-webfont.ttf') format('truetype'), url('/fonts/Entypo-webfont.svg#EntypoRegular') format('svg');  font-weight:normal;  font-style:normal}
+@font-face{ font-family:'icomoon';  src:url('/fonts/icomoon.eot');  src:url('/fonts/icomoon.eot?#iefix') format('/fonts/embedded-opentype'), url('/fonts/icomoon.woff') format('woff'), url('/fonts/icomoon.ttf') format('truetype'), url('/fonts/icomoon.svg#icomoon') format('svg');  font-weight:normal;  font-style:normal}
 
 header, article, footer{width:100%}
 .wrap{width:880px; margin-left:auto; margin-right:auto}
@@ -82,25 +88,32 @@ article{padding:50px 0}
 header{position:relative}
 .list{margin-right:0; float:none}
 #archives ul li{margin-bottom:0}
+.next, .prev{top:-4px}
+#pagnav a, #pagnav a:visited{padding:5px 10px}
+.list:after {display:inline;}
  }
  @media only screen and (max-width:479px){
  body{font-size:14px}
 .wrap{width:210px; margin-left:auto; margin-right:auto}
 p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
 .first, #judul, .tanggal{margin-left:0}
-#page-title{font-size:28px}
+#page-title{font-size:28px; text-align:center;}
 #archives ul li time{display:none}
 article{padding:50px 0}
 header{position:relative}
-.list{margin-right:0; float:none; padding:10px}
+.list{margin-right:0; float:none; padding:10px 15px 10px 10px}
 #archives ul li{margin-bottom:0}
 .next, .prev{top:-4px}
+.next:after, .prev:before, .pulang:before{display:none;}
 #pagnav a, #pagnav a:visited{padding:5px 10px}
 .vidyou{padding-top:0}
-figcaption{margin:-47px auto 0;}
+figcaption{margin:-48px auto 0;}
+.list:after {display:inline; right:5px;}
+#judul a, #judul a:visited{margin:0 auto}
  }
  @media only screen and (min-width:320px) and (max-width:479px){
  body{font-size:14px}
 .wrap{width:300px; margin-left:auto; margin-right:auto}
 .vidyou{padding-top:25px}
+.next:after, .prev:before, .pulang:before{display:inline;}
 }
