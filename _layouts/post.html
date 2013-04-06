@@ -24,17 +24,17 @@
 			<section class="wrap">
 			<h1 id="page-title">{{ page.title }}</h1>
 			{{ content }}
-			<time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>
+			<time data-icon="b" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>
 			<nav id="pagnav">
-				<a href="/" title="Archives">Archives</a>{% if page.previous.url %}
-				<a href="{{page.previous.url}}" class="next" title="{{page.previous.title}}">Next</a>{% endif %}{% if page.next.url %}
-				<a href="{{page.next.url}}" class="prev" title="{{ page.next.title }}">Prev</a>{% endif %}
+				<a href="/" data-icon="c" class="pulang" title="Archives">Archives</a>{% if page.previous.url %}
+				<a href="{{page.previous.url}}" class="next" data-icon="e" title="{{page.previous.title}}">Next</a>{% endif %}{% if page.next.url %}
+				<a href="{{page.next.url}}" class="prev" data-icon="d" title="{{ page.next.title }}">Prev</a>{% endif %}
 			</nav>
 			</section>
 		</article>
 		<footer>
 			<section class="wrap">
-			<p>Copyright &copy; 2011-2013 <a rel="author" href="/about">Heru Setiawan</a>, The typeface used are Open Sans &amp; Entypo by <a href="http://www.fontsquirrel.com/">fontsquirrel</a>, Javascript powered by <a href="http://remysharp.com/html5-enabling-script">Remy Sharp</a>, CSS Framework by <a href="https://github.com/dhgamache/Skeleton">Dave Gamache</a>. Thanks for <a href="https://github.com/mojombo/jekyll">Dr. Jekyll</a> &amp; <a href="http://pages.github.com/">Mr. Github</a></p>
+			<p>Copyright &copy; 2011-2013 <a rel="author" href="/about">Heru Setiawan</a>, The typeface used is Open Sans by <a href="http://www.fontsquirrel.com/">fontsquirrel</a>, Icon font by <a href="http://icomoon.io">icomoon</a>, Javascript powered by <a href="http://remysharp.com/html5-enabling-script">Remy Sharp</a>, CSS Framework by <a href="https://github.com/dhgamache/Skeleton">Dave Gamache</a>. Thanks for <a href="https://github.com/mojombo/jekyll">Dr. Jekyll</a> &amp; <a href="http://pages.github.com/">Mr. Github</a></p>
 			</section>
 		</footer>
 		<script type="text/javascript">

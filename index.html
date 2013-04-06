@@ -6,6 +6,6 @@ title: Monkey Business
 <h2 id="page-title">{{ page.title }}</h2>
 <section id="archives">
 <ul>{% for post in site.posts %}
-<li><a href="{{ post.url }}"><p class="list">{{ post.title }}</p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
+<li><a href="{{ post.url }}"><p data-icon="e" class="list">{{ post.title }}</p><time data-icon="b" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
 </ul>
 </section>
