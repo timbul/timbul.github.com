@@ -25,7 +25,7 @@ li p{line-height:21px}
 img{max-width:100%; height:auto}
 header{background-color:#fff}
 #judul{padding:15px 0; margin-left:130px}
-#judul a, #judul a:visited{text-indent:-100000px; background-repeat:no-repeat; background-image:url('http://4.bp.blogspot.com/-R0mNnKpKxeY/UV67Lh7SHJI/AAAAAAAAAVg/yZ9eNE55eCg/h105/sariminlogo.png'); background-position:0 0; width:170px; height:50px; display:block; border-bottom:none; margin:0}
+#judul a, #judul a:visited{text-indent:-100000px; background-repeat:no-repeat; background-image:url('http://4.bp.blogspot.com/-R0mNnKpKxeY/UV67Lh7SHJI/AAAAAAAAAVg/yZ9eNE55eCg/h105/sariminlogo.png'); background-position:0 0; width:170px; height:50px; display:block; border-bottom:none; margin:0; color:#333;}
 #judul a:hover, #judul a:focus{opacity:1}
 article{padding:50px 0; background-color:#008f6b; color:#fff}
 #page-title{font-family:'OpenSansLight',Arial,sans-serif; margin-bottom:30px; font-size:40px; line-height:1.2}
