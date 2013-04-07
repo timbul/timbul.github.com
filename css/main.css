@@ -23,11 +23,11 @@ ol{list-style:decimal}
 li{line-height:inherit; margin-bottom:12px}
 li p{line-height:21px}
 img{max-width:100%; height:auto}
-header{z-index:99999; position:fixed; background-color:#fff}
+header{background-color:#fff}
 #judul{padding:15px 0; margin-left:130px}
 #judul a, #judul a:visited{text-indent:-100000px; background-repeat:no-repeat; background-image:url('http://4.bp.blogspot.com/-R0mNnKpKxeY/UV67Lh7SHJI/AAAAAAAAAVg/yZ9eNE55eCg/h105/sariminlogo.png'); background-position:0 0; width:170px; height:50px; display:block; border-bottom:none; margin:0}
 #judul a:hover, #judul a:focus{opacity:1}
-article{padding:130px 0 50px; background-color:#008f6b; color:#fff}
+article{padding:50px 0; background-color:#008f6b; color:#fff}
 #page-title{font-family:'OpenSansLight',Arial,sans-serif; margin-bottom:30px; font-size:40px; line-height:1.2}
 .vidyou{height:0; padding-top:25px; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
 .vidvim{height:0; padding-top:0; padding-bottom:67.5%; margin-bottom:10px; position:relative; overflow:hidden}
@@ -84,8 +84,6 @@ p, ul, ol, #page-title, #pagnav, q{margin-left:30px; margin-right:30px;}
 .first, #judul, .tanggal{margin-left:30px;}
 #page-title{font-size:32px}
 #archives ul li time{display:none}
-article{padding:50px 0}
-header{position:relative}
 .list{margin-right:0; float:none}
 #archives ul li{margin-bottom:0}
 .next, .prev{top:-4px}
@@ -99,8 +97,6 @@ p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
 .first, #judul, .tanggal{margin-left:0}
 #page-title{font-size:28px; text-align:center;}
 #archives ul li time{display:none}
-article{padding:50px 0}
-header{position:relative}
 .list{margin-right:0; float:none; padding:10px 15px 10px 10px}
 #archives ul li{margin-bottom:0}
 .next, .prev{top:-4px}
