@@ -37,22 +37,22 @@ article{padding:50px 0; background-color:#008b8b; color:#eee}
 #archives ul li{clear:both; line-height:18px; margin-bottom:30px}
 .list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
 #archives ul li time{color:#ddd; float:left; margin-bottom:2px}
-.list, #archives ul li time{padding:12px 20px; background-color:#006161; background-color:rgba(0,0,0,0.2)}
+.list, #archives ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
 .list:hover, #archives ul li time:hover{opacity:.9}
 footer p{font-size:12px}
 footer{padding:30px 0 0}
 #pagnav{margin-top:50px; position:relative; text-align:center}
-#pagnav a, #pagnav a:visited{color:#ddd; padding:10px 30px; background-color:#006161; background-color:rgba(0,0,0,0.2); border-bottom:none}
+#pagnav a, #pagnav a:visited{color:#ddd; padding:10px 30px; background-color:#006e6e; background-color:rgba(0,0,0,0.2); border-bottom:none}
 #pagnav a:hover, #pagnav a:focus{opacity:.9}
 .next, .prev{top:-9px; position:absolute; line-height:1.4}
 .next{right:0}
 .prev{left:0}
 .gambar, .vidyou, .vidvim{margin-bottom:24px}
-figcaption{padding:10px 2px; position:relative; font-size:12px; color:#ddd; margin:-49px auto 0; max-width:420px; background-color:#006161; background-color:rgba(0,0,0,0.3)}
+figcaption{padding:10px 2px; position:relative; font-size:12px; color:#ddd; margin:-49px auto 0; max-width:420px; background-color:#006e6e; background-color:rgba(0,0,0,0.3)}
 .first{margin:0 16px 10px 130px; float:left}
 .tanggal{margin-left:130px;}
 .right{text-align:right}
-q{position:relative; text-align:center; font-size:130%; font-style:italic; display:block; margin-bottom:24px; padding:10px 20px; color:#ddd; background-color:#006161; background-color:rgba(0,0,0,0.2)}
+q{position:relative; text-align:center; font-size:130%; font-style:italic; display:block; margin-bottom:24px; padding:10px 20px; color:#ddd; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
 q:before{top:0; left:0px; position:absolute;  margin:0 5px;   speak: none;}
 q:after{bottom:0; right:0px; position:absolute;  margin:0 5px;   speak: none; }
 time:before{margin-right:5px;  speak: none; }
