@@ -16,6 +16,7 @@ a:hover, a:focus{opacity:0.7}
 p a, p a:visited{line-height:inherit}
 footer a, footer  a:visited{color:#008b8b; text-decoration:none; outline:0; border-bottom:1px solid #008b8b}
 #archives a, #archives a:visited{border-bottom:none}
+#archives a:hover, #archives a:focus{opacity:1}
 ul, ol{margin-bottom:20px}
 ul{list-style:none outside}
 ol{list-style:decimal}
