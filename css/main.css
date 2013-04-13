@@ -38,12 +38,12 @@ article{padding:50px 0; background-color:#008b8b; color:#eee}
 .list{color:#ddd; float:left; line-height:18px; margin-bottom:2px; margin-left:0; margin-right:2px; position:relative;}
 #archives ul li time{color:#ddd; float:left; margin-bottom:2px}
 .list, #archives ul li time{padding:12px 20px; background-color:#006e6e; background-color:rgba(0,0,0,0.2)}
-.list:hover, #archives ul li time:hover{background-color: 006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
+.list:hover, #archives ul li time:hover{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
 footer p{font-size:12px}
 footer{padding:30px 0 0}
 #pagnav{margin-top:50px; position:relative; text-align:center}
 #pagnav a, #pagnav a:visited{color:#ddd; padding:10px 30px; background-color:#006e6e; background-color:rgba(0,0,0,0.2); border-bottom:none}
-#pagnav a:hover, #pagnav a:focus{background-color: 006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
+#pagnav a:hover, #pagnav a:focus{background-color: #006161; background-color: rgba(0,0,0,0.3);opacity: 1;}
 .next, .prev{top:-9px; position:absolute; line-height:1.4}
 .next{right:0}
 .prev{left:0}
