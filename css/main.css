@@ -66,7 +66,7 @@ audio{width:100%;}
 .bayu{height:0;padding:0;position:relative;display:block;overflow:hidden;margin-bottom: 24px;}
 .cici{width:100%;padding:0;position:absolute;top:0;left:0;display:none;overflow:hidden}
 .cici img{margin-left:auto;margin-right:auto;max-width:100%;height:auto;padding:0;position:relative;display:block}
-.dede,.eno{width:25px;height:100%;margin:0;position:absolute;top:0;background:url(./panah.png) no-repeat}
+.dede,.eno{width:25px;height:100%;margin:0;position:absolute;top:0;background:url(/images/panah.png) no-repeat}
 .dede{left:3%;background-position:0 50%}
 .eno{right:3%;background-position:-26px 50%}
 .dede:hover,.eno:hover{cursor:pointer}
