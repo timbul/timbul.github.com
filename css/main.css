@@ -92,7 +92,7 @@ p, ul, ol, #page-title, #pagnav, q{margin-left:30px; margin-right:30px;}
 .list:after {display:inline;}
  }
  @media only screen and (max-width:479px){
- body{font-size:14px;background:red;}
+ body{font-size:14px;}
 .wrap{width:210px; margin-left:auto; margin-right:auto}
 p, ul, ol, #page-title, #pagnav, q{margin-left:0; margin-right:0}
 .first, #judul, .tanggal{margin-left:0}
