@@ -30,8 +30,8 @@
 			{{ content }}
 			<time data-icon="b" datetime="{{ page.date | date: '%Y-%m-%d' }}" class="tanggal">{{ page.date | date_to_string }}</time>
 			<nav id="pagnav">
-				<a href="/" data-icon="c" class="pulang" title="Archives">Archives</a>{% if page.previous.url %}
-				<a href="{{page.next.url}}" class="next" data-icon="e" title="{{page.next.title}}">Next</a>{% endif %}{% if page.next.url %}
+				<a href="/" data-icon="c" class="pulang" title="Archives">Archives</a>{% if page.next.url %}
+				<a href="{{page.next.url}}" class="next" data-icon="e" title="{{page.next.title}}">Next</a>{% endif %}{% if page.previous.url %}
 				<a href="{{page.previous.url}}" class="prev" data-icon="d" title="{{page.previous.title}}">Prev</a>{% endif %}
 			</nav>
 			</div>
