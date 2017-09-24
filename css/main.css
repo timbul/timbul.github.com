@@ -48,6 +48,7 @@ footer{padding:30px 0 0}
 .next{right:0}
 .prev{left:0}
 .gambar, .vidyou, .vidvim, .sss{margin-bottom:24px}
+footer span{display: inline-block; transform: rotate(180deg);}
 figcaption{padding:10px 2px; position:relative; font-size:12px; color:#ddd; margin:-49px auto 0; max-width:420px; background-color:#006e6e; background-color:rgba(0,0,0,0.5)}
 .first{margin:0 16px 10px 130px; float:left}
 .tanggal{margin-left:130px;}
