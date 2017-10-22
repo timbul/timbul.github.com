@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'icomoon';
   src:  url('http://sarim.in/fonts/icomoon.eot?7mmbk0');
     src:  url('http://sarim.in/fonts/icomoon.eot/icomoon.eot?7mmbk0#iefix') format('embedded-opentype'),
@@ -8,7 +8,7 @@
   font-weight: normal;
   font-style: normal;
   
-}
+} */
 
 .icon-chevron-right:after, .icon-chevron-left:before, .icon-home:before, .icon-user:before, .icon-video:before, figcaption:before, time:before, q:before, q:after, .icon-circle-right:before, .icon-circle-left:before, .icon-instagram:before, .icon-twitter:before, .icon-github:before {
   font-family: 'icomoon' !important;
