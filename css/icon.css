@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.eot?7mmbk0');
-    src:  url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.eot?7mmbk0#iefix') format('embedded-opentype'),
-    url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.ttf?7mmbk0') format('truetype'),
-    url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.woff?7mmbk0') format('woff'),
-    url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.svg?7mmbk0#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?7mmbk0');
+    src:  url('/fonts/icomoon.eot/icomoon.eot?7mmbk0#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.eot/icomoon.ttf?7mmbk0') format('truetype'),
+    url('/fonts/icomoon.eot/icomoon.woff?7mmbk0') format('woff'),
+    url('/fonts/icomoon.eot/icomoon.svg?7mmbk0#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
