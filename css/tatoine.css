@@ -188,11 +188,11 @@ div#rey ol li a p {
     display: inline-table;
 }
 
-div#rey ol li time:before {
+div#rey ol li a time:before {
     display: none;
 }
 
-div#rey ol li time {color: #6c6f76;position: absolute;display: inline-table;text-align: right;right: 0;}
+div#rey ol li a time {color: #6c6f76;position: absolute;display: inline-table;text-align: right;right: 0;}
 
 
 div#rey ol li a, div#rey ol li a:visited {
@@ -307,7 +307,7 @@ p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
 h1.anakin {
     font-size: 3.333em;
 }
-div#rey ol li time {display:none;}
+div#rey ol li a time {display:none;}
 li.kylo a {max-width:100%;}
  }
  
@@ -322,7 +322,7 @@ p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
 h1.anakin {
     font-size: 3.333em;
 }
-div#rey ol li time {display:none;}
+div#rey ol li a time {display:none;}
  
 p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
     margin-right: auto;
