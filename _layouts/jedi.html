@@ -9,8 +9,6 @@
 		<link rel="stylesheet" href="/css/normalize.css">
 		<link rel="stylesheet" href="/css/tatoine.css">
 		<link rel="stylesheet" href="/css/icon.css">
-		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">		
-		
 		<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 		<link rel="alternate" type="application/rss+xml" href="http://timbul.github.com/atom.xml"/> 
 		<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
@@ -22,17 +20,17 @@
 	<body>
 		<header>
 			<a href="/"><img class="obiwan" src="/images/logo.png"></a>
-			<h1 class="anakin">Sarimin</h1>
-			<h2 class="luke"><a class="icon-user" href="/">Monkey Business</a></h2>
-			<time class="yoda">2011 - 2017</time>
+			<h1 class="anakin">{{ page.title }}</h1>
+			<h2 class="luke"><a class="icon-user" href="/">{{ page.writer }}</a></h2>
+			<time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="yoda">{{ page.date | date_to_string }}</time>
 		</header>
 		<article>
-			<h2 class="palpatine">Table of Contents:</h3>
-				<div id="rey">
-					<ol>{% for post in site.posts %}
-						<li class="kylo"><a href="{{ post.url }}"><p>{{ post.title }}</p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
-					</ol>
-				</div>
+			{{ content }}
+			<nav id="millennium-falcon">
+				<a href="/" class="lando icon-home" title="Archives">Archives</a>{% if page.next.url %}
+				<a href="{{page.next.url}}" class="han icon-chevron-right" title="{{page.next.title}}">Next</a>{% endif %}{% if page.previous.url %}
+				<a href="{{page.previous.url}}" class="chewie icon-chevron-left" title="{{page.previous.title}}">Prev</a>{% endif %}
+			</nav>
 		</article>
 		<footer>
 			<p>Copyleft <span class="jar-jar-binks">©</span> 2011-2017 <a rel="author" href="http://heru.me">Heru Setiawan</a>, The typeface used is Oswald by <a href="http://www.google.com/fonts/">google fonts</a>, Icon font by <a href="http://icomoon.io">icomoon</a>. Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://pages.github.com/">Github</a></p>

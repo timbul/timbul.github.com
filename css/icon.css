@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.eot?7mmbk0');
+    src:  url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.eot?7mmbk0#iefix') format('embedded-opentype'),
+    url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.ttf?7mmbk0') format('truetype'),
+    url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.woff?7mmbk0') format('woff'),
+    url('file:///D:/99%20useless/09%20blog/new%20sarimin/icomoon.svg?7mmbk0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-chevron-right:after, .icon-chevron-left:before, .icon-home:before, .icon-user:before, .icon-video:before, figcaption:before, time:before, q:before, q:after, .icon-circle-right:before, .icon-circle-left:before, .icon-instagram:before, .icon-twitter:before, .icon-github:before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+}
+
+
+.icon-chevron-right:after {
+  content: "\e902";
+}
+.icon-chevron-left:before {
+  content: "\e903";
+}
+.icon-home:before {
+  padding-right: 5px;
+  content: "\e904";
+}
+.icon-user:before {
+  padding-right: 2px;
+  content: "\e906";
+}
+.icon-video:before {
+  content: "\e907";
+}
+figcaption:before {
+  padding-right: 5px;
+  content: "\e908";
+}
+time:before {
+  padding-right: 5px;
+  content: "\e90c";
+}
+q:before {
+  padding-right: 10px;
+  content: "\e977";
+}
+q:after {
+  padding-left: 10px;
+  content: "\e978";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}

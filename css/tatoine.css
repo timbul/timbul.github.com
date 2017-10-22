@@ -1,0 +1,338 @@
+body {background: transparent url("file:///D:/99%20useless/09%20blog/new%20sarimin/images/tile-graphpaper.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: georgia;line-height: 1.5;}
+
+/* body font sebelumnya 1.125em */
+
+header, article, footer {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.obiwan, .luke, .yoda, .anakin {
+    text-align: center;
+}
+
+a img.obiwan {
+    max-width: 4.556em;
+    margin: 0 auto;
+}
+
+time.yoda, q, figcaption {
+    display: block;
+    font-style: italic;
+}
+
+p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine {
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+img.qui-gon {
+    float: left;
+    margin-right: 0.556em;
+}
+
+h1.anakin {
+	font-weight: 500;
+	margin-bottom: 0.433em;
+	margin-top: 0.337em;
+	line-height: .93;
+	text-transform: uppercase;
+	font-family: oswald;
+	font-size: 5.833em;
+}
+
+h2 {
+    font-size: inherit;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+}
+
+header {margin-top: 5.556em;margin-bottom: 5.556em;text-align:center;}
+
+span.jabba {
+    text-transform: uppercase;
+    padding-right: 0.101em;
+    font-size: 5.500em;
+    float: left;
+    line-height: 0.75;
+    padding-top: 0.020em;
+}
+
+audio {
+    width: 100%;
+    border: 1px solid #e0e1e3;
+}
+
+figcaption {
+    padding-top: 1em;
+    text-align: center;
+    border-bottom: 1px dashed;
+}
+
+footer p {
+    margin-top: 2.769em;
+    margin-bottom: 2.769em;
+	font-style: italic;
+    font-family: georgia;
+}
+
+.r2d2 img, .padme img, .jyn-erso {
+    border: 1px solid #e0e1e3;
+}
+
+figure.padme img {
+    margin: 0 auto;
+    display: block;
+}
+
+figure.padme {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+span.jabba, h2, q, nav#millennium-falcon, figcaption, time, cite {
+    font-family: georgia;
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer p, time.yoda, figcaption, cite {
+    font-size: 0.75em;
+}
+
+q {
+    font-size: 1.167em;
+    text-align: center;
+}
+
+q::before, q::after {
+    font-size: 2em;
+}
+
+a.lando {
+    text-align: center;
+}
+
+a.han, a.chewie {
+    position: absolute;
+}
+
+a.han {
+    right: 0;
+}
+
+nav#millennium-falcon {text-align: center;position: relative; font-style: italic;}
+
+a.chewie {
+    left: 0;
+}
+
+nav#millennium-falcon a, nav#millennium-falcon a:visited, h2.luke a, h2.luke a:visited {
+    border-bottom: 1px dashed;
+    color: #2e2f32;
+    text-decoration: none;
+}
+nav#millennium-falcon a:hover, nav#millennium-falcon a:focus, h2.luke a:hover, h2.luke a:focus {
+    border-bottom: 1px solid #2e2f32;
+}
+
+time.yoda, figcaption, cite {
+    display: table;
+    color: #6c6f76;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p a, p a:visited {
+    text-decoration: none;
+    color: #0000ff;
+    border-bottom: 1px dashed;
+}
+
+p a:hover, p a:focus {
+    border-bottom: 1px solid;
+}
+
+span.jar-jar-binks {
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.jyn-erso{height:0;padding-top:25px;padding-bottom: 67.5% !important;ma;margin-bottom: 0;position: relative;overflow:hidden;}
+.jyn-erso embed, .jyn-erso iframe, .jyn-erso object, .jyn-erso video{top:0; left:0; width:100%; height:100%; position:absolute}
+
+cite:before {
+    padding-right: 5px;
+}
+
+cite {
+    border-bottom: 1px dashed;
+    margin-top: 1em;
+}
+
+div#rey ol {
+    padding-left: 0;
+    list-style-type: none;
+    color: #0000ff;
+    font-family: georgia;
+}
+
+div#rey ol li a p {
+    max-width: 460px;
+    margin: 0;
+    display: inline-table;
+}
+
+div#rey ol li time:before {
+    display: none;
+}
+
+div#rey ol li time {color: #6c6f76;position: absolute;display: inline-table;text-align: right;right: 0;}
+
+
+div#rey ol li a, div#rey ol li a:visited {
+    color: #6c6f76;
+}
+
+div#rey ol li a:hover, div#rey ol li a:focus {
+    color: #6c6f76;
+}
+
+li.kylo {
+    padding: 6px 5px;
+}
+
+li.kylo a {
+    text-decoration: none;
+    display: inline-grid;
+    width: 100%;
+    position: relative;
+}
+
+li.kylo:nth-of-type(odd){background: #f2f2f3;border-top: 1px solid rgba(224, 225, 227, 1);border-bottom: 1px solid rgba(224, 225, 227, 1);}
+li.kylo:hover {
+    background: #e0e1e3;
+}
+h3.palpatine {
+    font-family: georgia;
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* hyperspace start */
+
+.leia {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.r2d2 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.r2d2 img, .padme img {
+	max-width: 99%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.c3po, .bb8 {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('file:///D:/99%20useless/09%20blog/new%20sarimin/images/arr.png') no-repeat;
+}
+
+.bb8 {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.c3po {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.bb8:hover, .c3po:hover {
+	cursor: pointer;
+}
+
+/* hyperspace end*/
+
+
+/* mediaqueries start*/
+
+@media only screen and (min-width:768px) and (max-width:959px){
+header, article, footer {
+    width: 760px;
+}
+p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
+    margin-right: 79px;
+    margin-left: 79px;
+}
+}
+
+ @media only screen and (min-width:480px) and (max-width:767px){
+header, article, footer {
+    width: 470px;
+}
+p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
+    margin-right: auto;
+    margin-left: auto;
+}
+h1.anakin {
+    font-size: 3.333em;
+}
+div#rey ol li time {display:none;}
+li.kylo a {max-width:100%;}
+ }
+ 
+ @media only screen and (max-width:479px){
+header, article, footer {
+    width: 95%;
+}
+p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
+    margin-right: auto;
+    margin-left: auto;
+}
+h1.anakin {
+    font-size: 3.333em;
+}
+div#rey ol li time {display:none;}
+ 
+p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ }
+
+ @media only screen and (min-width:320px) and (max-width:479px){
+header, article, footer {
+    width: 98%;
+}
+
