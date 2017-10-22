@@ -6,11 +6,11 @@ title: Monkey Business
 		<header>
 			<a href="/"><img class="obiwan" src="/images/logo.png"></a>
 			<h1 class="anakin">Sarimin</h1>
-			<h3 class="luke"><a class="icon-user" href="/">Monkey Business</a></h3>
+			<h2 class="luke"><a class="icon-user" href="/">Monkey Business</a></h2>
 			<time class="yoda">2011 - 2017</time>
 		</header>
 		<article>
-			<h2 class="palpatine">Table of Contents:</h3>
+			<h3 class="palpatine">Table of Contents:</h3>
 				<div id="rey">
 					<ol>{% for post in site.posts %}
 						<li class="kylo"><a href="{{ post.url }}"><p>{{ post.title }}</p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></a></li>{% endfor %}
