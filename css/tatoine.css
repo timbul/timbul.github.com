@@ -183,14 +183,14 @@ div#rey ol {
 div#rey ol li a p {
     max-width: 460px;
     margin: 0;
-    display: inline-table;
+    display: inline-block;
 }
 
 div#rey ol li a time:before {
     display: none;
 }
 
-div#rey ol li a time {color: #6c6f76;position: absolute;display: inline-table;text-align: right;right: 0;}
+div#rey ol li a time {color: #6c6f76;position: absolute;right: 0;}
 
 
 div#rey ol li a, div#rey ol li a:visited {
@@ -207,7 +207,7 @@ li.kylo {
 
 li.kylo a {
     text-decoration: none;
-    display: inline-grid;
+    display: block;
     width: 100%;
     position: relative;
 }
