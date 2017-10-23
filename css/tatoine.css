@@ -1,4 +1,4 @@
-body {background: transparent url("http://sarim.in/images/kotak.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: georgia;line-height: 1.5;}
+body {background: transparent url("http://sarim.in/images/kotak.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: Georgia, Times, "Times New Roman", serif ;line-height: 1.5;}
 
 /* body font sebelumnya 1.125em */
 
@@ -37,7 +37,7 @@ h1.anakin {
 	margin-top: 0.337em;
 	line-height: .93;
 	text-transform: uppercase;
-	font-family: oswald;
+	font-family: oswald, helvetica, Verdana, Geneva, sans-serif;
 	font-size: 5.833em;
 }
 
@@ -48,7 +48,7 @@ h2 {
     margin: 0;
 }
 
-header {margin-top: 5.556em;margin-bottom: 5.556em;text-align:center;}
+header {margin-top: 5.556em;margin-bottom: 0;text-align:center;}
 
 span.jabba {
     text-transform: uppercase;
@@ -74,7 +74,6 @@ footer p {
     margin-top: 2.769em;
     margin-bottom: 2.769em;
 	font-style: italic;
-    font-family: georgia;
 }
 
 .r2d2 img, .padme img, .jyn-erso {
@@ -91,10 +90,6 @@ figure.padme {
     margin-left: auto;
 }
 
-
-span.jabba, h2, q, nav#millennium-falcon, figcaption, time, cite {
-    font-family: georgia;
-}
 
 p {
     margin-top: 2em;
@@ -124,6 +119,10 @@ a.han, a.chewie {
 
 a.han {
     right: 0;
+}
+
+time.yoda {
+    margin-bottom: 7.333em;
 }
 
 nav#millennium-falcon {text-align: center;position: relative; font-style: italic;}
@@ -163,8 +162,8 @@ span.jar-jar-binks {
     display: inline-block;
 }
 
-.jyn-erso{height:0;padding-top:25px;padding-bottom: 67.5% !important;ma;margin-bottom: 0;position: relative;overflow:hidden;}
-.jyn-erso embed, .jyn-erso iframe, .jyn-erso object, .jyn-erso video{top:0; left:0; width:100%; height:100%; position:absolute}
+.jyn-erso{height:0;padding-top:25px;padding-bottom: 67.5% !important; margin-bottom: 0;position: relative;overflow:hidden;}
+.jyn-erso embed, .jyn-erso iframe, .jyn-erso object, .jyn-erso video{top:0; left:0; width:100%; height:100%; position:absolute; }
 
 cite:before {
     padding-right: 5px;
@@ -179,7 +178,6 @@ div#rey ol {
     padding-left: 0;
     list-style-type: none;
     color: #0000ff;
-    font-family: georgia;
 }
 
 div#rey ol li a p {
@@ -219,7 +217,6 @@ li.kylo:hover {
     background: #e0e1e3;
 }
 h3.palpatine {
-    font-family: georgia;
     font-size: 1em;
     text-align: center;
     font-weight: normal;

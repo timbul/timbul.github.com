@@ -19,12 +19,12 @@
 	</head> 
 	<body>
 		<header>
-			<a href="/"><img class="obiwan" src="/images/logo.png"></a>
+			<a href="/"><img alt="Sarimin icon" class="obiwan" src="/images/logo.png"></a>
 			<h1 class="anakin">{{ page.title }}</h1>
-			<h2 class="luke"><a class="icon-user" href="{{ page.alamat }}">{{ page.writer }}</a></h2>
-			<time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="yoda">{{ page.date | date_to_string }}</time>
 		</header>
 		<article>
+			<h2 class="luke"><a class="icon-user" href="{{ page.alamat }}">{{ page.writer }}</a></h2>
+			<time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="yoda">{{ page.date | date_to_string }}</time>
 			{{ content }}
 			<nav id="millennium-falcon">
 				<a href="/" class="lando icon-home" title="Archives">Archives</a>{% if page.next.url %}
