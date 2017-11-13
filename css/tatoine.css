@@ -1,4 +1,4 @@
-body {background: transparent url("http://sarim.in/images/kotak.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: bookerlyregular, Georgia, Times, "Times New Roman", serif ;line-height: 1.5;}
+body {background: transparent url("http://sarim.in/images/kotak.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: bookerlyregular, Georgia, Times, "Times New Roman", serif ;line-height: 1.7;}
 
 /* body font sebelumnya 1.125em */
 
@@ -58,7 +58,7 @@ span.jabba {
     font-size: 5.500em;
     float: left;
     line-height: 0.75;
-    padding-top: 0.020em;
+    padding-top: 0.148em;
 }
 
 audio {
