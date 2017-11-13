@@ -296,20 +296,6 @@ p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
     margin-right: 79px;
     margin-left: 79px;
 }
-
-footer p, time.yoda, figcaption, cite {
-    font-size: 0.75em;
-}
-q {
-    font-size: 1.167em;
-    text-align: center;
-}
-q::before, q::after {
-    font-size: 2em;
-}
-h3.palpatine {
-    font-size: 1em;}
-
 }
 
  @media only screen and (min-width:480px) and (max-width:767px){
@@ -325,20 +311,6 @@ h1.anakin {
 }
 div#rey ol li a time {display:none;}
 li.kylo a {max-width:100%;}
-
-footer p, time.yoda, figcaption, cite {
-    font-size: 0.75em;
-}
-q {
-    font-size: 1.167em;
-    text-align: center;
-}
-q::before, q::after {
-    font-size: 2em;
-}
-h3.palpatine {
-    font-size: 1em;}
-
  }
  
  @media only screen and (max-width:479px){
@@ -358,19 +330,6 @@ p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
     margin-right: auto;
     margin-left: auto;
  }
- 
- footer p, time.yoda, figcaption, cite {
-    font-size: 0.75em;
-}
-q {
-    font-size: 1.167em;
-    text-align: center;
-}
-q::before, q::after {
-    font-size: 2em;
-}
-h3.palpatine {
-    font-size: 1em;}
 
  }
 
@@ -378,16 +337,4 @@ h3.palpatine {
 header, article, footer {
     width: 95%;
 }
-footer p, time.yoda, figcaption, cite {
-    font-size: 0.75em;
-}
-q {
-    font-size: 1.167em;
-    text-align: center;
-}
-q::before, q::after {
-    font-size: 2em;
-}
-h3.palpatine {
-    font-size: 1em;}
  }
