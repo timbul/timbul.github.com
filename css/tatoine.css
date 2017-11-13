@@ -297,6 +297,7 @@ p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
     margin-right: 79px;
     margin-left: 79px;
 }
+html {font-size: 100%;}
 }
 
  @media only screen and (min-width:480px) and (max-width:767px){
@@ -312,6 +313,7 @@ h1.anakin {
 }
 div#rey ol li a time {display:none;}
 li.kylo a {max-width:100%;}
+html {font-size: 100%;}
  }
  
  @media only screen and (max-width:479px){
@@ -331,11 +333,12 @@ p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine{
     margin-right: auto;
     margin-left: auto;
  }
-
+html {font-size: 100%;}
  }
 
  @media only screen and (min-width:320px) and (max-width:479px){
 header, article, footer {
     width: 95%;
 }
+html {font-size: 100%;}
  }
