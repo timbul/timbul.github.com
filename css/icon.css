@@ -1,4 +1,50 @@
 @font-face {
+    font-family: 'bookerlybold';
+    src: url('http://sarim.in/fonts/bookerly-bold-webfont.woff2') format('woff2'),
+         url('http://sarim.in/fonts/bookerly-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bookerlybold_italic';
+    src: url('http://sarim.in/fonts/bookerly-bolditalic-webfont.woff2') format('woff2'),
+         url('http://sarim.in/fonts/bookerly-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bookerlyitalic';
+    src: url('http://sarim.in/fonts/bookerly-italic-webfont.woff2') format('woff2'),
+         url('http://sarim.in/fonts/bookerly-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bookerlyregular';
+    src: url('http://sarim.in/fonts/bookerly-regular-webfont.woff2') format('woff2'),
+         url('http://sarim.in/fonts/bookerly-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
   font-family: 'icomoon';
   src:  url('http://sarim.in/fonts/icomoon.eot?ofjk9n');
   src:  url('http://sarim.in/fonts/icomoon.eot?ofjk9n#iefix') format('embedded-opentype'),

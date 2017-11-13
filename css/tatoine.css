@@ -1,4 +1,4 @@
-body {background: transparent url("http://sarim.in/images/kotak.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: Georgia, Times, "Times New Roman", serif ;line-height: 1.5;}
+body {background: transparent url("http://sarim.in/images/kotak.jpg") 50% 0;color: #2e2f32;font-size: 1em;font-family: bookerlyregular, Georgia, Times, "Times New Roman", serif ;line-height: 1.5;}
 
 /* body font sebelumnya 1.125em */
 
@@ -19,6 +19,7 @@ a img.obiwan {
 time.yoda, q, figcaption {
     display: block;
     font-style: italic;
+	font-family: bookerlyitalic, Georgia, Times, "Times New Roman", serif;
 }
 
 p, .qui-gon, q, .boba, .jango, #millennium-falcon, #rey, h3.palpatine {
@@ -46,6 +47,7 @@ h2 {
     font-weight: normal;
     font-style: italic;
     margin: 0;
+	font-family: bookerlyitalic, Georgia, Times, "Times New Roman", serif;
 }
 
 header {margin-top: 5.556em;margin-bottom: 0;text-align:center;}
@@ -74,6 +76,7 @@ footer p {
     margin-top: 2.769em;
     margin-bottom: 2.769em;
 	font-style: italic;
+	font-family: bookerlyitalic, Georgia, Times, "Times New Roman", serif;
 }
 
 .r2d2 img, .padme img, .jyn-erso {
@@ -125,7 +128,7 @@ time.yoda {
     margin-bottom: 7.333em;
 }
 
-nav#millennium-falcon {text-align: center;position: relative; font-style: italic;}
+nav#millennium-falcon {text-align: center;position: relative; font-style: italic; font-family: bookerlyitalic, Georgia, Times, "Times New Roman", serif;}
 
 a.chewie {
     left: 0;
@@ -221,6 +224,7 @@ h3.palpatine {
     text-align: center;
     font-weight: normal;
     font-style: italic;
+	font-family: bookerlyitalic, Georgia, Times, "Times New Roman", serif;
 }
 
 
